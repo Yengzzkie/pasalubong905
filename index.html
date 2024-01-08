@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <meta charset="UTF-8" />
+
+    <title>Pasalubong 905</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#hero">Menu</a></li>
+          <li><a href="#home">Promotions</a></li>
+          <li><a href="gallery.html">Food Gallery</a></li>
+          <li><a href="#reservation">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero hero-bground" id="hero">
+      <img
+        src="assets/pasalogo2.png"
+        alt="-pasalubong-logo"
+        class="slide-top"
+      />
+
+      <div class="hero-content">
+        <h1 class="slide-right">a taste of home...</h1>
+      </div>
+    </section>
+    <main class="grid-container">
+      <section class="about add-flex" id="about">
+        <div class="text-center add-flex-col">
+          <h1><span class="alex-brush">Discover</span><br />OUR STORY</h1>
+          <h3 class="alex-brush">*</h3>
+          <p>
+            <b>Pasalubong 905</b> is a charming,
+            family-owned establishment that embodies the rich culinary heritage
+            of the Philippines. Located
+            <em>210 Bond St W Unit A, Oshawa, ON L1J 2L7</em>, this cozy eatery
+            warmly welcomes patrons to experience an authentic taste of Filipino
+            cuisine infused with the warmth of traditional hospitality.
+          </p>
+
+          <p>
+            Founded and managed by a passionate Filipino family, Pasalubong 905
+            prides itself on offering a diverse menu filled with beloved
+            Filipino dishes that evoke nostalgia and comfort.
+          </p>
+
+          <p>
+            What sets Pasalubong 905 apart is not just its delicious fare, but also the sense of
+            community and family it fosters. The ambiance reflects a homely
+            atmosphere where guests are treated not merely as customers but as
+            honored guests sharing in the flavors of Filipino culture.
+          </p>
+        </div>
+
+        <img src="assets/sample.png" alt="" width="400px" height="auto" />
+      </section>
+
+      <section class="banner add-flex-col">
+        <div class="text-center add-flex-col">
+          <h1>
+            <span class="alex-brush">Authentic</span><br />FILIPINO RECIPES
+          </h1>
+        </div>
+      </section>
+
+      <section class="menu add-flex add-padding" id="menu">
+        <div class="main-imagestack-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/foodgroup1.jpg"
+              alt="Image 1"
+              class="image1"
+            />
+
+            <img
+              src="assets/foodgroup2.jpg"
+              alt="Image 2"
+              class="image2"
+            />
+          </div>
+        </div>
+
+        <div class="add-padding text-center add-flex-col">
+          <h1><span class="alex-brush">Discover</span><br />OUR MENU</h1>
+          <h3 class="alex-brush">*</h3>
+          <p>
+            From savory classics like adobo, sinigang, and kare-kare to
+            mouthwatering delicacies such as lechon, pancit, and halo-halo, each
+            dish is carefully crafted with fresh ingredients and time-honored
+            recipes passed down through generations.
+          </p>
+          <button id="openModal" type="button">See full menu</button>
+        </div>
+      </section>
+
+      <section class="banner add-flex-col">
+        <div class="text-center add-flex-col">
+          <h1>
+            WHERE<br /><span class="alex-brush">Tradition</span><br />MEETS
+            TASTE
+          </h1>
+        </div>
+      </section>
+
+      <section class="reservation add-flex" id="reservation">
+        <div class="text-center add-flex-col">
+          <h1>
+            MAKE YOUR<br /><span class="alex-brush">Reservation</span><br />NOW!
+          </h1>
+          <h3 class="alex-brush">*</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ab
+            nam cupiditate minima facere dolore facilis iste alias. Et, sed
+            corporis? Veritatis natus voluptatum quidem iure fugit, molestiae
+            corporis maxime quis incidunt quaerat officia quia harum laudantium
+            similique! Sint unde voluptates excepturi nisi, suscipit fugiat
+            quaerat facilis quidem est, soluta commodi itaque quod dolor.
+            Voluptatibus quaerat veniam magnam asperiores tempore dolorem
+            cupiditate illo at nostrum! Nulla deleniti atque quaerat delectus
+            excepturi ex consectetur hic dicta, saepe error minus necessitatibus
+            praesentium nihil quisquam itaque, laboriosam numquam voluptates,
+            sequi nostrum natus mollitia quae! Incidunt eius dolorem aliquid,
+            facere vel ratione quam architecto!
+          </p>
+          <button type="button">Make a Reservation</button>
+        </div>
+
+        <img src="assets/sample.png" alt="" width="400px" height="auto" />
+      </section>
+
+      <!-- MODAL SECTION -->
+
+      <div class="modal">
+        <div class="modal-content add-padding">
+          <button class="close" id="closeModal">X</button>
+
+          <div class="text-center add-flex-col">
+            <h1><span class="alex-brush">Menu</span></h1>
+          </div>
+
+          <div class="page page-1">
+            <h2>Fish</h2>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">1. Salmon Zab(Cold Dish)</div>
+                <div class="space"></div>
+                <div class="price">7.90</div>
+              </div>
+              <p class="description">
+                Thin sliced fresh salmon topped with Thai style spicy sauce and
+                fresh garlic.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">2. Larb Salmon(Cold Dish)</div>
+                <div class="space"></div>
+                <div class="price">7.90</div>
+              </div>
+              <p class="description">
+                Thai style spicy salmon sashimi salad. (Scott’s favourite)
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">3. Muk Grob Prik Galeu *r</div>
+                <div class="space"></div>
+                <div class="price">7.50</div>
+              </div>
+              <p class="description">
+                Battered squid deep fried, seasoned with salt, ground pepper,
+                and sliced chilli.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">4. Yum Mamuang N</div>
+                <div class="space"></div>
+                <div class="price">7.50</div>
+              </div>
+              <p class="description">
+                Spicy raw mango salad with king prawns and cashew nuts. (Paul’s
+                favourite)
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">5. SOM TAM KUNG N (Cold Dish)</div>
+                <div class="space"></div>
+                <div class="price">9.00</div>
+              </div>
+              <p class="description">Spicy papaya salad with king prawns.</p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">6. Hoy Ob</div>
+                <div class="space"></div>
+                <div class="price">6.90</div>
+              </div>
+              <p class="description">
+                Steamed mussels with Thai basil, served with our spicy seafood
+                sauce.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">7. Kanom Jeeb *r</div>
+                <div class="space"></div>
+                <div class="price">7.50</div>
+              </div>
+              <p class="description">
+                Steamed dumplings with minced pork, prawn and water chestnut.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">8. Satay Gung N 7</div>
+                <div class="space"></div>
+                <div class="price">9.00</div>
+              </div>
+              <p class="description">
+                Grilled marinated prawn skewers, served with peanut sauce.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">9. Pla goong</div>
+                <div class="space"></div>
+                <div class="price">7.90</div>
+              </div>
+              <p class="description">
+                Thai style grilled prawn salad mixed with red onions, coriander
+                and topped with thai style spicy dressing.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">10. Pla Lui Suan *N</div>
+                <div class="space"></div>
+                <div class="price">11.00</div>
+              </div>
+              <p class="description">
+                Lightly Floured, deep fried sea bass mixed with Thai herbs and
+                Thai style spicy dressing, topped with roast nuts. (Paul’s
+                favourite)
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">11. Pla Rad Plik *</div>
+                <div class="space"></div>
+                <div class="price">11.00</div>
+              </div>
+              <p class="description">
+                Lightly floured, deep fried sea bass, coated with homemade hot
+                chilli garlic sauce.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">12. Kung Chub Bang Tod *</div>
+                <div class="space"></div>
+                <div class="price">7.50</div>
+              </div>
+              <p class="description">
+                Deep fried prawns in Thai style tempura batter.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">13. Tod Mun Khow Pod NuaPoo *r</div>
+                <div class="space"></div>
+                <div class="price">7.90</div>
+              </div>
+              <p class="description">Deep fried corn cake with crab meat.</p>
+            </div>
+            <h2>Meat</h2>
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">14. Moo Manow</div>
+                <div class="space"></div>
+                <div class="price">7.50</div>
+              </div>
+              <p class="description">
+                Sliced pork loin with spicy lemon dressing garnished with fresh
+                garlic and mint leaves.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">15. Esarn sausages</div>
+                <div class="space"></div>
+                <div class="price">6.50</div>
+              </div>
+              <p class="description">
+                Northeastern style matured sausages stuffed with pork, garlic,
+                white pepper and rice.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">16. Krua Kling</div>
+                <div class="space"></div>
+                <div class="price">7.00</div>
+              </div>
+              <p class="description">
+                Famous dish from the south of Thailand. Stir fried minced pork
+                with hot yellow curry paste.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">17. Kaprao Moo Grob *</div>
+                <div class="space"></div>
+                <div class="price">7.50</div>
+              </div>
+              <p class="description">
+                Crispy pork belly stir fried with chilli & basil. (Nuye’s
+                Recommendation)
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">18. Poh Plia Larb Moo *</div>
+                <div class="space"></div>
+                <div class="price">6.50</div>
+              </div>
+              <p class="description">
+                Deep fried spring rolls stuffed with spicy minced pork.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">19. Larb Moo Tod r</div>
+                <div class="space"></div>
+                <div class="price">7.00</div>
+              </div>
+              <p class="description">
+                Deep fried spicy pork balls served with spicy sauce.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">20. Satay Gai N</div>
+                <div class="space"></div>
+                <div class="price">6.50</div>
+              </div>
+              <p class="description">
+                Grilled marinated chicken skewers, served with peanut sauce.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">21. Gai Tod Num Pla *</div>
+                <div class="space"></div>
+                <div class="price">6.50</div>
+              </div>
+              <p class="description">
+                Thai style deep fried salted chicken wings served with Sri Racha
+                chilli sauce.
+              </p>
+            </div>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">22. Gai Mae Khong *r</div>
+                <div class="space"></div>
+                <div class="price">6.50</div>
+              </div>
+              <p class="description">
+                Deep fried chicken wings marinated in famous Thai Whisky (Mae
+                khong).
+              </p>
+            </div>
+          
+          
+          </div>
+
+          
+        </div>
+      </div>
+
+
+      <!-- END OF MODAL SECTION -->
+
+
+
+      <!-- FOOTER SECTION -->
+      <span class="alex-brush add-flex" id="asterisk">*</span>
+
+      <footer class="restaurant-info add-padding">
+        <div class="locations">
+          <strong>ADDRESS</strong>
+          <br /><br />
+          210 Bond St W Unit A, Oshawa, ON L1J 2L7
+        </div>
+
+        <div class="hours">
+          <div>
+            <strong>HOURS</strong>
+            <br /><br />
+            Monday - Saturday <br />
+            10:30am - 8:00pm
+            <br /><br />
+            Sunday <br />
+            10:30am - 5pm
+          </div>
+        </div>
+      </footer>
+
+      <footer class="footer-credit text-center add-padding">
+        <p>&copy; 2023 Pasalubong 905. All Rights Reserved.</p>
+        <span
+          >Developed by
+          <a
+            href="https://www.linkedin.com/in/manuel-gatchalian-788a5126a/"
+            target="_blank"
+            >Yengzzkie &copy;</a
+          ></span
+        >
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
