@@ -1,0 +1,809 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300italic,400);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+
+body {
+  font-family: sans-serif, Arial;
+  background-color: rgb(255,255,255);
+  /* background: url(assets/store.jpg); */
+  /* background: url(https://images.unsplash.com/photo-1628006203055-b4aa5f6300f3?q=60&w=2000); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #717171;
+  display: flex;
+  flex-direction: column;
+}
+
+/* GLOBAL STYLES */
+
+.add-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.alex-brush {
+  font-family: 'Alex Brush', sans-serif;
+  font-size: 4rem;
+  color: goldenrod;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.add-padding {
+  padding: 20px 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #717171;
+}
+
+/* END OF GLOBAL STYLES */
+
+/* NAVBAR SECTION */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  transition: background-color 0.3s ease;
+  z-index: 3;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+
+nav ul li a::after {
+  position: absolute;
+  content: "";
+  bottom: -2px;
+  left: 0px;
+  width: 0;
+  height: 2px;
+  background-color: white;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* END OF NAVBAR SECTION */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.grid-container {
+  height: 100vh;
+}
+
+section {
+  padding: 10px;
+}
+
+/* HERO SECTION */
+
+.hero-bground {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(assets/store.jpg);
+  /* background-image: url("https://img.freepik.com/premium-photo/red-curry-with-pork-local-food-northern-thailand_38649-456.jpg?w=1060"); */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-bground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ocean-blue);
+  color: white;
+  height: 100vh;
+}
+
+.hero .hero-content {
+  position: absolute;
+  bottom: 30%;
+  transform: translate(0, 50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero img {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  width: 800px;
+  height: auto;
+  filter: drop-shadow(-3px 5px 3px white);
+  z-index: 1;
+}
+
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  gap: 10px; */
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 30px;
+  height: auto;
+  width: 500px;
+  color: white;
+  border-radius: 15px;
+  padding: 20px 10px;
+  z-index: 1;
+}
+
+.schedule-container :nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.schedule-container :nth-child(1) span {
+  margin-right: 10px;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-shadow: 0px 5px 3px black;
+}
+
+.slide-top {
+  animation: slideFromTop 1s ease forwards;
+  opacity: 0;
+}
+
+.slide-right {
+  animation: slideFromRight 1s ease forwards;
+  opacity: 0;
+  animation-delay: .4s;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+  opacity: 0;
+  animation-delay: 0.8s;
+}
+
+@keyframes slideFromTop {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    scale: 0;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+/* END OF HERO SECTION */
+
+
+/* Slideshow container */
+.slideshow-container {
+  display: none;
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  display: none;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  /* display: inline-block; */
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ABOUT SECTION */
+
+.about {
+  /* background-color: rgba(0, 0, 0, 0.668); */
+  padding: 50px 100px;
+  color: #717171;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.about p {
+  margin: 10px 30px;
+}
+
+.about img {
+  margin-right: 25px;
+}
+
+
+/* END OF ABOUT SECTION */
+
+.gallery {
+  overflow: hidden;
+}
+
+.contact {
+  color: black;
+}
+
+
+
+/* BANNER SECTION */
+
+.banner {
+  background-color: #f9e5ca;
+  height: 500px;
+  line-height: 1;
+  color: #717171;
+  font-size: 1.5rem;
+}
+
+.banner span {
+  font-size: 6rem;
+  text-shadow: -2px 4px 3px antiquewhite;
+}
+
+
+/* END OF BANNER SECTION */
+
+/* MENU SECTION */
+.menu {
+    padding: 50px 100px;
+  color: #717171;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.menu-image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+
+
+.menu img {
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+/* END OF MENU SECTION */
+
+
+#asterisk {
+  opacity: 1;
+  transform-origin: 50% 4%;
+  /* animation: spin .5s forwards;
+  animation-delay: .3s; */
+}
+
+#asterisk::before, #asterisk::after {
+  transform-origin: center center;
+  animation: grow .5s forwards;
+  animation-delay: .8s;
+}
+
+#asterisk:before {
+   content:"";
+        display:inline-block;
+        position:relative;
+        vertical-align:middle;
+        height:1px;
+        width: 40%;
+        opacity: 0;
+        background:black;
+        z-index: 10;
+}
+
+#asterisk:after {
+   content:"";
+        display:inline-block;
+        position:relative;
+        vertical-align:middle;
+        height:1px;
+        width: 40%;
+        opacity: 0;
+        background:black;
+        z-index: 10;
+}
+
+@keyframes grow { 
+  0% {
+    opacity: 0;
+    width: 0%;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    width: 40%;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+
+/* BUTTON STYLE */
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: #717171;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: -3px 5px rgba(0, 0, 0, 0.445);
+}
+
+button:hover {
+  background-color: antiquewhite;
+  transition: 0.3s ease-in-out;
+}
+
+button:active {
+  transition: all .1s ease-in-out;
+  transform: translateY(2px);
+  box-shadow: -1px 2px rgba(0, 0, 0, 0.767);
+  background-color: rgb(244, 207, 159);
+}
+
+
+/* END OF BUTTON STYLE */
+
+
+/* FOOTER SECTION */
+
+footer {
+  color: #717171;
+}
+
+.footer-credit {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.restaurant-info {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.hours {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hours > div {
+  flex: 1;
+}
+
+/* END OF FOOTER SECTION */
+
+
+/* START OF MODAL */
+
+/* modal window */
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7); 
+    transition: visibility 0s, opacity 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+}
+
+.modal.active {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.page:not(.page-1) {
+  display: none;
+}
+
+/* Modal Content */
+
+.modal-content {
+    background-color: antiquewhite;
+    margin: 70px auto; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -3px 5px 5px black;
+    width: 50%;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+/* Close Button */
+
+.close {
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.menu-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* END OF MODAL */
+
+
+/* STACKED IMAGE */
+
+.main-imagestack-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 700px;
+  max-width: 700px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 800px;
+  height: auto;
+}
+
+.image-wrapper img {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  box-shadow: -3px 3px 7px black;
+}
+
+.image1 {
+  z-index: 2;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%) rotate(-10deg); /
+}
+
+.image2 {
+  right: -30%;
+  z-index: 2;
+  transform: translate(-50%, -50%) rotate(10deg); 
+}
+
+.image-wrapper img:hover {
+  scale: 1.1;
+  z-index: 3;
+  box-shadow: 0px 5px 8px black;
+  transition: scale .5s ease-in-out, box-shadow .8s ease;
+}
+
+
+/* END OF STACKED IMAGE */
+
+
+
+/* TEST */
+
+h2{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.item-wrapper {
+  overflow: hidden;
+  width: 90%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    }
+
+    .title {
+      font-family: 'Playfair Display', serif;
+      flex-grow: 1;
+      font-size: 18px;
+    }
+
+    .space {
+      flex-basis: 1;
+      overflow: hidden;
+      flex: 20;
+      flex-shrink: 4;
+      align-self: center;
+      text-align: center;
+      margin-right: 5px;
+      margin-top: 16px;
+      border-bottom: 2px dotted black;
+      font-size: 1px;
+    }
+    .price {
+      font-size: 18px;
+      font-family: 'Playfair Display', serif;
+      min-width: 60px;
+      align-self: felx-end;
+      overflow: hidden;
+    }
+  .description {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 80%;
+    overflow: hidden;
+  }
+
+
+
+
+/* For screens with a width between 600px and 1023px */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  * {
+    box-sizing: unset;
+  }
+
+  body {
+    font-size: 2rem;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reservation {
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 100px;
+  }
+
+  #menu {
+    flex-direction: column;
+  }
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 30px 30px;
+  }
+
+  .title, .price, .description {
+    font-size: 2rem;
+  }
+
+  .hero img {
+    top: 30%;
+  }
+
+  button {
+    scale: 1.5;
+    margin-top: 50px;
+  }
+
+  .next-btn, .prev-btn {
+    width: 100px;
+  }
+
+}
