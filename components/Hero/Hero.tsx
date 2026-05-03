@@ -25,16 +25,16 @@ export default function Home() {
       </div>
       <div className="relative z-10 text-center text-white px-4">
         <p className={`${beVietnamPro.className} text-(--primary-light) tracking-[0.4em] uppercase mb-6`}>
-          MANILA | PHILIPPINES
+          PASALUBONG905 | OSHAWA
         </p>
-        <h1 className={`${notoSerif.className} text-7xl font-bold mb-12 max-w-4xl leading-22`}>
-          A home for the <span className="italic font-light">elevated</span>{" "}
-          soul.
+        <h1 className={`${notoSerif.className} text-7xl font-bold mb-12 max-w-4xl leading-22 text-shadow-[0_4px_10px_rgba(0,0,0,0.95)]`}>
+          Elevated Filipino <span className="italic font-light">cuisine</span>{" "}
+          crafted for the <span className="italic font-light">modern</span> table.
         </h1>
         <div className="flex justify-center">
           <button className="group flex flex-col items-center gap-4 hover:scale-105 transition-transform duration-500">
             <span className="bg-(--primary) px-12 py-5 uppercase tracking-widest shadow-lg">
-              Reserve Your Seat
+              See More
             </span>
             <span className="text-white text-3xl animate-bounce">
               <MdKeyboardArrowDown />

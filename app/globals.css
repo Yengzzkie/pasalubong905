@@ -1,9 +1,30 @@
 @import "tailwindcss";
 
 :root {
-    --primary: #8E3A1F;
-    --primary-light: #FFB59F;
-    --secondary: #2D472C;
-    --tertiary: #A67B5B;
-    --neutral: #F9F5F0; 
+  --primary: #8e3a1f;
+  --primary-light: #ffb59f;
+  --secondary: #2d472c;
+  --tertiary: #56361b;
+  --neutral: #f9f5f0;
+  --primary-bg: #fdf9f4;
+  --secondary-bg: rgb(247 243 238);
+  --accent: #A67B5B;
+}
+
+.inabel-pattern {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      currentColor 10px,
+      currentColor 11px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 10px,
+      currentColor 10px,
+      currentColor 11px
+    );
 }
