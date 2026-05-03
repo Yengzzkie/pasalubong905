@@ -8,7 +8,7 @@
   --neutral: #f9f5f0;
   --primary-bg: #fdf9f4;
   --secondary-bg: rgb(247 243 238);
-  --accent: #A67B5B;
+  --accent: #a67b5b;
 }
 
 .inabel-pattern {
@@ -26,5 +26,57 @@
       transparent 10px,
       currentColor 10px,
       currentColor 11px
+    );
+}
+
+.banig-pattern {
+  background-image:
+    linear-gradient(
+      30deg,
+      #e6e2dd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #e6e2dd 87.5%,
+      #e6e2dd
+    ),
+    linear-gradient(
+      150deg,
+      #e6e2dd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #e6e2dd 87.5%,
+      #e6e2dd
+    ),
+    linear-gradient(
+      30deg,
+      #e6e2dd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #e6e2dd 87.5%,
+      #e6e2dd
+    ),
+    linear-gradient(
+      150deg,
+      #e6e2dd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #e6e2dd 87.5%,
+      #e6e2dd
+    ),
+    linear-gradient(
+      60deg,
+      #e6e2dd77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #e6e2dd77 75%,
+      #e6e2dd77
+    ),
+    linear-gradient(
+      60deg,
+      #e6e2dd77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #e6e2dd77 75%,
+      #e6e2dd77
     );
 }

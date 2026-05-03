@@ -19,11 +19,11 @@ const PreFooterBanner = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius consectetur eum temporibus, iusto quam laudantium in eveniet quisquam ex commodi, culpa maiores autem minima sit natus, aperiam rem fuga.
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-6">
-          <button className="bg-white text-primary px-12 py-5 font-label-sm text-label-sm uppercase tracking-widest border border-white hover:bg-primary-fixed transition-all">
-            Book Online
+          <button className="bg-white text-(--primary) px-12 py-5 uppercase tracking-widest border border-white hover:bg-(--primary-light) transition-all">
+            Order Online
           </button>
-          <button className="border border-white text-white px-12 py-5 font-label-sm text-label-sm uppercase tracking-widest hover:bg-white hover:text-primary transition-all">
-            Contact Concierge
+          <button className="border border-white text-white px-12 py-5 uppercase tracking-widest hover:bg-white hover:text-(--primary) transition-all">
+            Contact US
           </button>
         </div>
       </div>

@@ -1,3 +1,6 @@
+"use client";
+
+import Link from "next/link";
 import { Be_Vietnam_Pro, Noto_Serif } from "next/font/google";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
@@ -32,14 +35,16 @@ export default function Home() {
           crafted for the <span className="italic font-light">modern</span> table.
         </h1>
         <div className="flex justify-center">
-          <button className="group flex flex-col items-center gap-4 hover:scale-105 transition-transform duration-500">
-            <span className="bg-(--primary) px-12 py-5 uppercase tracking-widest shadow-lg">
-              See More
-            </span>
-            <span className="text-white text-3xl animate-bounce">
-              <MdKeyboardArrowDown />
-            </span>
-          </button>
+          <Link href="/menu">
+            <button className="group flex flex-col items-center gap-4 hover:scale-105 transition-transform duration-500">
+              <span className="bg-(--primary) px-12 py-5 uppercase tracking-widest shadow-lg">
+                See our menu
+              </span>
+              <span className="text-white text-3xl animate-bounce">
+                <MdKeyboardArrowDown />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </header>

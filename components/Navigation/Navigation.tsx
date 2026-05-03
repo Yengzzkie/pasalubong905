@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
 
   const navLinks = [
     { name: "Menu", href: "/menu" },
-    { name: "Reservations", href: "#" },
-    { name: "Order Online", href: "#" },
-    { name: "Login", href: "#" },
+    { name: "Services", href: "" },
+    { name: "Gallery", href: "#" },
+    { name: "Reserved Link", href: "#" },
   ];
 
   return (
@@ -13,7 +14,9 @@ export default function Home() {
       <nav className="bg-(--neutral) top-0 sticky z-50 pb-2 transition-all duration-300">
         <div className="flex justify-between items-center w-full px-16 h-24 max-w-screen-2xl mx-auto">
           <div className="text-2xl font-serif font-light tracking-[0.2em] text-orange-900">
-            <Image src="/logo.png" alt="logo" width={250} height={250} />
+            <Link href="/">
+              <Image src="/logo.png" alt="logo" width={250} height={250} />
+            </Link>
           </div>
           <div className="hidden md:flex items-center space-x-12">
             {navLinks.map((link) => (
