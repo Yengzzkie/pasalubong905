@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`h-full`}>
+    <html lang="en" className={`scroll-smooth h-full`}>
       <body className="bg-(--primary-bg) min-h-full flex flex-col">
         <Navigation />
         {children}

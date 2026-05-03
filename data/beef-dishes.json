@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Beef Broccoli",
+    "image": "/beef-dishes/BEEF BROCOLLI.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": {
+      "small": "9",
+      "medium": "12",
+      "large": "15"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Beef Caldereta",
+    "image": "/beef-dishes/BEEF CALDERETA.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": {
+      "small": "9",
+      "medium": "12",
+      "large": "15"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Beef Kare-Kare",
+    "image": "/beef-dishes/BEEF KARE-KARE.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": {
+      "small": "9",
+      "medium": "12",
+      "large": "15"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Bistek",
+    "image": "/beef-dishes/BISTEK.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": {
+      "small": "9",
+      "medium": "12",
+      "large": "15"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Bopis",
+    "image": "/beef-dishes/BOPIS.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": {
+      "small": "9",
+      "medium": "12",
+      "large": "15"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Pinapaitan",
+    "image": "/beef-dishes/PINAPAITAN.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": {
+      "small": "9",
+      "medium": "12",
+      "large": "15"
+    }
+  }
+]
