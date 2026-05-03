@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Home() {
 
   const navLinks = [
-    { name: "Menu", href: "#" },
+    { name: "Menu", href: "/menu" },
     { name: "Reservations", href: "#" },
     { name: "Order Online", href: "#" },
     { name: "Login", href: "#" },
