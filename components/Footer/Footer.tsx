@@ -1,12 +1,15 @@
-import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-stone-100 full-width py-20 border-t border-stone-200">
+    <footer className="bg-stone-100 full-width py-20 border-t border-stone-200 z-10">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-16 max-w-screen-2xl mx-auto">
         <div className="space-y-6">
           <div className="text-lg font-serif tracking-widest text-orange-900">
-            TAHANAN
+            <Link href="/">
+              <Image src="/logo.png" alt="logo" width={250} height={250} />
+            </Link>
           </div>
           <p className="text-stone-500 font-serif text-sm uppercase tracking-widest leading-loose">
             210 Bond St W Unit A <br />

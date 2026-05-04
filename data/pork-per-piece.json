@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Grilled Pork Belly (Salt & Pepper)",
+    "price": "20",
+    "UOM": "lbs"
+  },
+  {
+    "id": 2,
+    "name": "Lechon Kawali",
+    "price": "21",
+    "UOM": "lbs"
+  },
+  {
+    "id": 3,
+    "name": "Crispy Pata",
+    "price": "14",
+    "UOM": "lbs"
+  },
+  {
+    "id": 4,
+    "name": "Pork BBQ in Skewer",
+    "price": "4.75",
+    "UOM": "pc"
+  },
+  {
+    "id": 5,
+    "name": "Lumpiang Shanghai",
+    "price": "40",
+    "UOM": "50 pcs"
+  },
+  {
+    "id": 6,
+    "name": "Lumpiang Shanghai",
+    "price": "75",
+    "UOM": "100 pcs"
+  },
+  {
+    "id": 7,
+    "name": "Siomai",
+    "price": "32",
+    "UOM": "25 pcs"
+  }
+]

@@ -1,9 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { Noto_Serif } from "next/font/google";
 import GrainDivider from "@/components/ui/GrainDivider/GrainDivider";
-import beefDishes from "@/data/beef-dishes.json";
 import InabelDivider from "@/components/ui/InabelDivider/InabelDivider";
 import BeefDishSection from "@/components/BeefDishSection/BeefDishSection";
 import ChickenDishSection from "@/components/ChickenDishSection/ChickenDishSection";
@@ -17,7 +15,7 @@ const notoSerif = Noto_Serif({
   subsets: ["latin"],
 });
 
-const page = () => {
+const MenuPage = () => {
   const menuNav = [
     {
       id: 1,
@@ -285,7 +283,7 @@ const page = () => {
   );
 };
 
-export default page;
+export default MenuPage;
 
 
           {/* <div className="grid grid-cols-1 gap-8">

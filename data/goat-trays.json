@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Goat Caldereta",
+    "price": {
+      "small": "75",
+      "medium": "100",
+      "large": "170"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Goat Adobo",
+    "price": {
+      "small": "75",
+      "medium": "100",
+      "large": "170"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Goat Kilawin",
+    "price": {
+      "small": "90",
+      "medium": "115",
+      "large": "190"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Goat Pinapaitan",
+    "price": {
+      "small": "70",
+      "medium": "95",
+      "large": "170"
+    }
+  }
+]

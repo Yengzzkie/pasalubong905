@@ -6,7 +6,7 @@ export default function Home() {
     { name: "Menu", href: "/menu" },
     { name: "Services", href: "" },
     { name: "Gallery", href: "#" },
-    { name: "Reserved Link", href: "#" },
+    { name: "Party Trays", href: "party-trays" },
   ];
 
   return (

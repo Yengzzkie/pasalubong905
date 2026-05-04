@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Fried Rice (Mixed Veg.)",
+    "price": {
+      "small": "35",
+      "medium": "45",
+      "large": "70"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Fried Rice (Chicken + Mixed Veg.)",
+    "price": {
+      "small": "40",
+      "medium": "50",
+      "large": "75"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Garlic Fried Rice",
+    "price": {
+      "small": "35",
+      "medium": "45",
+      "large": "70"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Steamed Rice",
+    "price": {
+      "small": "30",
+      "medium": "40",
+      "large": "55"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Pancit Bihon",
+    "price": {
+      "small": "45",
+      "medium": "55",
+      "large": "95"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Pancit Canton",
+    "price": {
+      "small": "50",
+      "medium": "60",
+      "large": "105"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Pancit Bihon & Canton",
+    "price": {
+      "small": "50",
+      "medium": "60",
+      "large": "105"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Palabok with Shrimp",
+    "price": {
+      "small": "60",
+      "medium": "70",
+      "large": "115"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Spaghetti",
+    "price": {
+      "small": "50",
+      "medium": "65",
+      "large": "105"
+    }
+  }
+]
