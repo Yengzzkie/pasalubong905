@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Noto_Serif } from "next/font/google";
-import beefDishes from "@/data/beef-dishes.json";
+import chickenDishes from "@/data/chicken-dishes.json";
 
 const notoSerif = Noto_Serif({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -32,16 +32,16 @@ const ChickenDishSection = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
-        {beefDishes.map((chicken) => (
+        {chickenDishes.map((chicken) => (
           <div key={chicken.id} className="flex justify-between pb-6">
-            <div className="flex chickens-center gap-4 border-b-2 border-(--primary) pb-4 max-w-[80%]">
-              <div className="shadow-[0px_0px_7px_0px_rgba(0,0,1,0.5)] w-24 h-24 shrink-0 overflow-hidden">
+            <div className="flex items-center gap-4 border-b-2 border-(--primary) pb-4 max-w-[80%]">
+              <div className="w-24 h-24 shrink-0 overflow-hidden">
                 <Image
                   className="w-full h-full object-cover"
-                  src="/beef-dishes.png"
+                  src={chicken.image}
                   width={1000}
                   height={1000}
-                  alt="A photo of group of filipino beef dishes"
+                  alt={chicken.name}
                 />
               </div>
               <div>

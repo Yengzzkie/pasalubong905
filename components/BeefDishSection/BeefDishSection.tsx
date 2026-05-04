@@ -38,7 +38,7 @@ const BeefDishSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
         {beefDishes.map((beef) => (
           <div key={beef.id} className="flex justify-between pb-6">
-            <div className="flex beefs-center gap-4 border-b-2 border-(--primary) pl-4 max-w-[80%]">
+            <div className="flex items-center gap-4 border-b-2 border-(--primary) pl-4 max-w-[80%]">
               <div className="w-24 h-24 shrink-0 overflow-hidden">
                 <Image
                   className="w-full h-full object-cover"
@@ -49,9 +49,7 @@ const BeefDishSection = () => {
                 />
               </div>
               <div>
-                <h3
-                  className={`${notoSerif.className} font-semibold text-xl mb-2`}
-                >
+                <h3 className={`${notoSerif.className} font-semibold text-xl mb-2`}>
                   {beef.name}
                 </h3>
                 <p className="text-xs italic">{beef.description}</p>

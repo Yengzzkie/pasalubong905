@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Chicken Adobo",
-    "image": "/chicken-dishes/CHICKEN ADOBO.png",
+    "name": "Bicol Express",
+    "image": "/pork-dishes/BICOL EXPRESS.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",
@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "name": "Chicken Afritada",
-    "image": "/chicken-dishes/CHICKEN AFRITADA.png",
+    "name": "Dinakdakan",
+    "image": "/pork-dishes/DINAKDAKAN.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",
@@ -23,8 +23,8 @@
   },
   {
     "id": 3,
-    "name": "Fried Chicken Legs",
-    "image": "/chicken-dishes/FRIED CHICKEN LEGS.png",
+    "name": "Dinuguan",
+    "image": "/pork-dishes/DINUGUAN.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",
@@ -34,8 +34,8 @@
   },
   {
     "id": 4,
-    "name": "Fried Chicken Wings",
-    "image": "/chicken-dishes/FRIED CHICKEN WINGS.png",
+    "name": "Igado",
+    "image": "/pork-dishes/IGADO.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",
@@ -45,8 +45,30 @@
   },
   {
     "id": 5,
-    "name": "Fried Chicken Whole",
-    "image": "/chicken-dishes/FRIED CHICKEN WHOLE.png",
+    "name": "Menudillo",
+    "image": "/pork-dishes/MENUDILLO.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": {
+      "small": "9",
+      "medium": "12",
+      "large": "15"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Menudo",
+    "image": "/pork-dishes/MENUDO.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": {
+      "small": "9",
+      "medium": "12",
+      "large": "15"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Pork Sinigang",
+    "image": "/pork-dishes/PORK SINIGANG.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",

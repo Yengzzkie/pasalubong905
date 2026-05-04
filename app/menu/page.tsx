@@ -36,11 +36,16 @@ const page = () => {
     },
     {
       id: 4,
+      name: "Fish Dishes",
+      link: "fish-dishes",
+    },
+    {
+      id: 5,
       name: "Desserts",
       link: "desserts",
     },
     {
-      id: 5,
+      id: 6,
       name: "Beverages",
       link: "beverages",
     },
@@ -103,7 +108,7 @@ const page = () => {
         <GrainDivider />
 
         {/* <!-- Section: DESSERTS --> */}
-        <section className="mb-32 scroll-mt-32" id="panghimagas">
+        <section className="mb-32 scroll-mt-32" id="desserts">
           <div className="text-center mb-16">
             <h2
               className={`${notoSerif.className} font-bold text-(--primary) text-5xl mb-4`}

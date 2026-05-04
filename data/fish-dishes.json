@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Chicken Adobo",
-    "image": "/chicken-dishes/CHICKEN ADOBO.png",
+    "name": "Fried Daing na Bangus",
+    "image": "/fish-dishes/FRIED DAING NA BANGUS.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",
@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "name": "Chicken Afritada",
-    "image": "/chicken-dishes/CHICKEN AFRITADA.png",
+    "name": "Fried Pompano",
+    "image": "/fish-dishes/FRIED POMPANO.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",
@@ -23,8 +23,8 @@
   },
   {
     "id": 3,
-    "name": "Fried Chicken Legs",
-    "image": "/chicken-dishes/FRIED CHICKEN LEGS.png",
+    "name": "Fried Tilapya",
+    "image": "/fish-dishes/FRIED TILAPYA.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",
@@ -34,8 +34,8 @@
   },
   {
     "id": 4,
-    "name": "Fried Chicken Wings",
-    "image": "/chicken-dishes/FRIED CHICKEN WINGS.png",
+    "name": "Grilled Bangus",
+    "image": "/fish-dishes/GRILLED BANGUS.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",
@@ -45,8 +45,8 @@
   },
   {
     "id": 5,
-    "name": "Fried Chicken Whole",
-    "image": "/chicken-dishes/FRIED CHICKEN WHOLE.png",
+    "name": "Fried Galunggong",
+    "image": "/fish-dishes/FRIED GALUNGGONG.png",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
     "price": {
       "small": "9",

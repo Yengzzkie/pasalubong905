@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Noto_Serif } from "next/font/google";
-import beefDishes from "@/data/beef-dishes.json";
+import porkDishes from "@/data/pork-dishes.json";
 
 const notoSerif = Noto_Serif({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -15,10 +15,10 @@ const PorkDishSection = () => {
         <div className="md:col-span-7 aspect-16/7 overflow-hidden">
           <Image
             className="w-full h-full object-cover"
-            src="/beef-dishes/beef-dishes.png"
+            src="/pork-dishes.png"
             width={1000}
             height={1000}
-            alt="A photo of group of filipino beef dishes"
+            alt="A photo of group of filipino pork dishes"
           />
         </div>
         <div className="md:col-span-5">
@@ -34,23 +34,23 @@ const PorkDishSection = () => {
 
       {/* PORK SELECTION */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
-        {beefDishes.map((beef) => (
-          <div key={beef.id} className="flex justify-between pb-6">
-            <div className="flex beefs-center gap-4 border-b-2 border-(--primary) pl-4 max-w-[80%]">
+        {porkDishes.map((pork) => (
+          <div key={pork.id} className="flex justify-between pb-6">
+            <div className="flex items-center gap-4 border-b-2 border-(--primary) pl-4 max-w-[80%]">
               <div className="w-24 h-24 shrink-0 overflow-hidden">
                 <Image
                   className="w-full h-full object-cover"
-                  src={beef.image}
+                  src={pork.image}
                   width={1000}
                   height={1000}
-                  alt="A photo of group of filipino beef dishes"
+                  alt={pork.name}
                 />
               </div>
               <div>
                 <h3 className={`${notoSerif.className} font-semibold text-xl mb-2`}>
-                  {beef.name}
+                  {pork.name}
                 </h3>
-                <p className="text-xs italic">{beef.description}</p>
+                <p className="text-xs italic">{pork.description}</p>
               </div>
             </div>
             <div className="flex gap-2">
@@ -59,7 +59,7 @@ const PorkDishSection = () => {
                   S
                 </span>
                 <span className="self-start text-(--primary)">
-                  ${beef.price.small}
+                  ${pork.price.small}
                 </span>
               </div>
               <div className="flex flex-col">
@@ -67,7 +67,7 @@ const PorkDishSection = () => {
                   M
                 </span>
                 <span className="self-start text-(--primary)">
-                  ${beef.price.medium}
+                  ${pork.price.medium}
                 </span>
               </div>
               <div className="flex flex-col">
@@ -75,7 +75,7 @@ const PorkDishSection = () => {
                   L
                 </span>
                 <span className="self-start text-(--primary)">
-                  ${beef.price.large}
+                  ${pork.price.large}
                 </span>
               </div>
             </div>
