@@ -36,8 +36,8 @@ const page = () => {
     },
     {
       id: 4,
-      name: "Fish Dishes",
-      link: "fish-dishes",
+      name: "Seafood Dishes",
+      link: "seafood-dishes",
     },
     {
       id: 5,

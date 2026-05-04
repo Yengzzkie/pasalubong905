@@ -15,7 +15,7 @@ const PorkDishSection = () => {
         <div className="md:col-span-7 aspect-16/7 overflow-hidden">
           <Image
             className="w-full h-full object-cover"
-            src="/pork-dishes.png"
+            src="/pork-dishes/pork-dishes.png"
             width={1000}
             height={1000}
             alt="A photo of group of filipino pork dishes"

@@ -9,7 +9,7 @@ const notoSerif = Noto_Serif({
 
 const ChickenDishSection = () => {
   return (
-    <section className="mb-32 scroll-mt-32" id="fish-dishes">
+    <section className="mb-32 scroll-mt-32" id="seafood-dishes">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-16 flex-row-reverse">
         <div className="md:col-span-5 order-2 md:order-1 text-right">
           <h2 className={`${notoSerif.className} font-bold text-(--primary) text-5xl mb-4`}>
@@ -23,7 +23,7 @@ const ChickenDishSection = () => {
         <div className="md:col-span-7 aspect-16/7 overflow-hidden order-1 md:order-2">
           <Image
             className="w-full h-full object-cover"
-            src="/fish-dishes.png"
+            src="/fish-dishes/fish-dishes.png"
             width={1000}
             height={1000}
             alt="A photo of group of filipino fish dishes"

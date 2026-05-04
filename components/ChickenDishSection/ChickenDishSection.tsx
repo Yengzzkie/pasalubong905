@@ -23,7 +23,7 @@ const ChickenDishSection = () => {
         <div className="md:col-span-7 aspect-16/7 overflow-hidden order-1 md:order-2">
           <Image
             className="w-full h-full object-cover"
-            src="/chicken-dishes.png"
+            src="/chicken-dishes/chicken-dishes.png"
             width={1000}
             height={1000}
             alt="A photo of group of filipino chicken dishes"
