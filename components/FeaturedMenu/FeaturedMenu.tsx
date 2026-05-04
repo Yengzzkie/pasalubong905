@@ -11,14 +11,14 @@ const notoSerif = Noto_Serif({
 
 const menuItems = [
   {
-    title: "Adobo Confit",
+    title: "Boodle Fight",
     category: "Boodle Fight",
     image: "/618808436_910181301948328_108844109515198654_n.jpg",
     description: "48-hour slow-cooked duck leg with cane vinegar and soy.",
     price: "CAD 28",
   },
   {
-    title: "Kare-Kare Risotto",
+    title: "Kakakanin Platter",
     category: "Main",
     image: "/kakanin-platter.png",
     description: "Peanut-infused risotto with beef short rib.",
@@ -32,16 +32,16 @@ const menuItems = [
     price: "CAD 16",
   },
   {
-    title: "Sisig Croquettes",
-    category: "Appetizer",
-    image: "/halo-halo.png",
+    title: "Sizzling Bangus Sisig",
+    category: "Sizzling",
+    image: "/SIZZLING BANGUS SISIG.png",
     description: "Crispy croquettes with sisig and calamansi aioli.",
     price: "CAD 18",
   },
   {
-    title: "Inasal Chicken",
-    category: "Grill",
-    image: "/kakanin-platter.png",
+    title: "Sizzling Crispy Sisig",
+    category: "Sizzling",
+    image: "/SIZZLING CRISPY SISIG.png",
     description: "Charcoal-grilled chicken with annatto marinade.",
     price: "CAD 24",
   },
