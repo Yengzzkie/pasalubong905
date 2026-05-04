@@ -3,19 +3,19 @@
     "id": 1,
     "name": "Grilled Pork Belly (Salt & Pepper)",
     "price": "20",
-    "UOM": "lbs"
+    "UOM": "lb"
   },
   {
     "id": 2,
     "name": "Lechon Kawali",
     "price": "21",
-    "UOM": "lbs"
+    "UOM": "lb"
   },
   {
     "id": 3,
     "name": "Crispy Pata",
     "price": "14",
-    "UOM": "lbs"
+    "UOM": "lb"
   },
   {
     "id": 4,

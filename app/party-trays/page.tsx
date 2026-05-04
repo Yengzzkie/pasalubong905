@@ -6,6 +6,7 @@ import porkTrays from "@/data/pork-trays.json";
 import goatTrays from "@/data/goat-trays.json";
 import seafoodTrays from "@/data/seafood-trays.json";
 import riceNoodleTrays from "@/data/rice-noodles-trays.json";
+import porkPerPiece from "@/data/pork-per-piece.json";
 
 const notoSerif = Noto_Serif({
     weight: ["400", "500", "600", "700", "800", "900"],
@@ -116,7 +117,7 @@ const PartyTraysPage = () => {
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={porkTrays} />
-                <PerPoundPieceTable />
+                <PerPoundPieceTable itemData={porkPerPiece} />
               </div>
             </div>
 
@@ -127,7 +128,7 @@ const PartyTraysPage = () => {
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={goatTrays} />
-                <PerPoundPieceTable />
+                <PerPoundPieceTable itemData={porkPerPiece} />
               </div>
             </div>
 
@@ -138,7 +139,7 @@ const PartyTraysPage = () => {
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={seafoodTrays} />
-                <PerPoundPieceTable />
+                <PerPoundPieceTable itemData={porkPerPiece} />
               </div>
             </div>
 
@@ -149,7 +150,7 @@ const PartyTraysPage = () => {
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={riceNoodleTrays} />
-                <PerPoundPieceTable />
+                <PerPoundPieceTable itemData={porkPerPiece} />
               </div>
             </div>
 
