@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Bicol Express",
     "image": "/pork-dishes/BICOL EXPRESS.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is the ultimate comfort food! With pork cubes cooked in coconut milk and chili peppers, it's rich, creamy, spicy and delicious.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -14,7 +14,7 @@
     "id": 2,
     "name": "Dinakdakan",
     "image": "/pork-dishes/DINAKDAKAN.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "s a popular Ilocano delicacy from the Philippines, specifically a savory, creamy, and tangy dish made from grilled pork and pork liver.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -25,7 +25,7 @@
     "id": 3,
     "name": "Dinuguan",
     "image": "/pork-dishes/DINUGUAN.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "which comes from the root word dugo (meaning \"blood\"), is a savory Filipino stew made of bite-sized pork cooked in pig's blood, vinegar, and spices, including garlic, onions, and chili peppers.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -36,7 +36,7 @@
     "id": 4,
     "name": "Igado",
     "image": "/pork-dishes/IGADO.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is a popular Ilocano dish , a savory stew made primarily with pork liver and other pork organ meats (kidney, heart) simmered in soy sauce, vinegar, and spices. With a vegetable (carrots, potato and red bellpepper).",
     "price": {
       "small": "9",
       "medium": "12",
@@ -47,7 +47,7 @@
     "id": 5,
     "name": "Menudillo",
     "image": "/pork-dishes/MENUDILLO.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a Filipino dish that is essentially a ground pork version of menudo or picadillo, featuring minced meat stewed in tomato sauce with diced potatoes, carrots, raisins",
     "price": {
       "small": "9",
       "medium": "12",
@@ -58,7 +58,7 @@
     "id": 6,
     "name": "Menudo",
     "image": "/pork-dishes/MENUDO.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a classic Filipino stew consisting of diced pork, pig liver, potatoes, carrots, and hotdogs simmered in a savory tomato-based sauce.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -69,7 +69,7 @@
     "id": 7,
     "name": "Pork Sinigang",
     "image": "/pork-dishes/PORK SINIGANG.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "(sinigang na baboy) is a popular Filipino comfort food soup known for its distinct savory and tart flavor. It is made by boiling pork (typically belly or ribs) with a souring agent—usually tamarind—along with vegetables like  radish and string beans.",
     "price": {
       "small": "9",
       "medium": "12",

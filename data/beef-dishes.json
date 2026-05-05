@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Beef Broccoli",
     "image": "/beef-dishes/BEEF BROCOLLI.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is a recipe uses thinly sliced beef, fresh broccoli, and a simple sauce made with soy sauce, oyster sauce, and ginger.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -14,7 +14,7 @@
     "id": 2,
     "name": "Beef Caldereta",
     "image": "/beef-dishes/BEEF CALDERETA.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is a Filipino beef stew cooked in tomato sauce with liver spread and uses vegetable (potatoes, carrots, bell peppers, and olives along with the beef).",
     "price": {
       "small": "9",
       "medium": "12",
@@ -25,7 +25,7 @@
     "id": 3,
     "name": "Beef Kare-Kare",
     "image": "/beef-dishes/BEEF KARE-KARE.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is a version of kare-kare or peanut stew that makes use of beef chuck.  It was perfect with some spicy shrimp paste. It has a vegetable eggplant, string beans and spoon cabbage(Bok choy)",
     "price": {
       "small": "9",
       "medium": "12",
@@ -36,7 +36,7 @@
     "id": 4,
     "name": "Bistek",
     "image": "/beef-dishes/BISTEK.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is a version of the Filipinos beef steak marinated in soy sauce, kalamansi juice and a chopped onion rings.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -47,7 +47,7 @@
     "id": 5,
     "name": "Bopis",
     "image": "/beef-dishes/BOPIS.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is a piquant Filipino dish of pork or beef lungs and heart sautéed in tomatoes, chilies and onions.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -58,7 +58,7 @@
     "id": 6,
     "name": "Pinapaitan",
     "image": "/beef-dishes/PINAPAITAN.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is a traditional Filipino dish known for its bold and robust flavors. It is a soup made with beef tripe and innards, cooked with bile and various spices. The dish is known for its bitter taste.",
     "price": {
       "small": "9",
       "medium": "12",

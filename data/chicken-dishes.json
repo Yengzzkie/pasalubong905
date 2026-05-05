@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Chicken Adobo",
     "image": "/chicken-dishes/CHICKEN ADOBO.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is the national dish of the Philippines, featuring chicken braised in a savory, tangy sauce made from soy sauce, vinegar, garlic, bay leaves, and black peppercorns.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -14,7 +14,7 @@
     "id": 2,
     "name": "Chicken Afritada",
     "image": "/chicken-dishes/CHICKEN AFRITADA.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "is another popular Filipino dish.  Pieces of chicken are cooked in tomato sauce along with carrots, potatoes and bell peppers.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -25,7 +25,7 @@
     "id": 3,
     "name": "Fried Chicken Legs",
     "image": "/chicken-dishes/FRIED CHICKEN LEGS.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "seasoned with paprika, onion powder, garlic powder, and black pepper with a dash of chili powder for added flavor.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -34,9 +34,9 @@
   },
   {
     "id": 4,
-    "name": "Fried Chicken Wings",
+    "name": "Fried Chicken Wings (Drums and Flats)",
     "image": "/chicken-dishes/FRIED CHICKEN WINGS.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "coated in a seasoned batter or flour mixture and deep-fried until golden, crispy, and crunchy.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -47,7 +47,7 @@
     "id": 5,
     "name": "Fried Chicken Whole",
     "image": "/chicken-dishes/FRIED CHICKEN WHOLE.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "recipe is made by dipping it into a spiced batter and deep-frying it to golden perfection.",
     "price": {
       "small": "9",
       "medium": "12",
