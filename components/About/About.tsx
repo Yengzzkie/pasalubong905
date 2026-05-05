@@ -7,8 +7,8 @@ const notoSerif = Noto_Serif({
 
 const About = () => {
   return (
-    <section className="text-(--tertiary) py-24 px-16 max-w-screen-2xl mx-auto overflow-hidden">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+    <section className="text-(--tertiary) py-10 lg:py-24 px-8 lg:px-16 max-w-screen-2xl mx-auto overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-16 items-center">
         <div className="md:col-span-5 space-y-8">
           <div className="font-bold inline-block px-4 py-1 border-l-2 border-primary">
             <span className="font-label-sm text-label-sm text-primary uppercase tracking-widest">
@@ -35,7 +35,7 @@ const About = () => {
               creating a tactile bridge between the past and the present.
             </p>
           </div>
-          <div className="pt-8">
+          <div className="lg:pt-8">
             <a
               className="font-label-sm text-label-sm text-primary border-b-2 border-primary/30 pb-1 hover:border-primary transition-all"
               href="#"
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
         <div className="md:col-span-7 relative">
-          <div className="aspect-[4/5] md:aspect-[16/10] bg-surface-container-highest overflow-hidden relative group">
+          <div className="aspect-4/5 md:aspect-16/10 overflow-hidden relative">
             <img
               alt="Tahanan Interior"
               className="w-full h-full object-cover grayscale-[20%] group-hover:scale-105 transition-transform duration-1000"
