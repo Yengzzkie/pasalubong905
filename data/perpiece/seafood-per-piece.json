@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Daing na Bangus",
+    "price": "12.99",
+    "UOM": "pc (Large)"
+  },
+  {
+    "id": 2,
+    "name": "Fried Tilapia",
+    "price": "8.75",
+    "UOM": "pc (Medium)"
+  },
+    {
+    "id": 3,
+    "name": "Fried Tilapia",
+    "price": "9.75",
+    "UOM": "pc (Large)"
+  },
+  {
+    "id": 4,
+    "name": "Inihaw na Pompano",
+    "price": "12.99",
+    "UOM": "pc (Small)"
+  },
+    {
+    "id": 5,
+    "name": "Inihaw na Pompano",
+    "price": "16.99",
+    "UOM": "pc (Large)"
+  },
+  {
+    "id": 6,
+    "name": "Inihaw na Bangus",
+    "price": "20.99",
+    "UOM": "pc (Large)"
+  }
+]

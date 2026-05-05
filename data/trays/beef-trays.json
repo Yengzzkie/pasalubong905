@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Caldereta",
+    "price": {
+      "small": "70",
+      "medium": "95",
+      "large": "170"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bistek Tagalog",
+    "price": {
+      "small": "80",
+      "medium": "110",
+      "large": "185"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bopis",
+    "price": {
+      "small": "70",
+      "medium": "95",
+      "large": "170"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Kare-Kare",
+    "price": {
+      "small": "70",
+      "medium": "95",
+      "large": "170"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Pinapaitan",
+    "price": {
+      "small": "65",
+      "medium": "90",
+      "large": "170"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Beef Broccoli",
+    "price": {
+      "small": "65",
+      "medium": "90",
+      "large": "160"
+    }
+  }
+]

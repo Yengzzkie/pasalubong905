@@ -34,9 +34,9 @@ const FoodTrayTable = ({ itemData }: FoodTrayTableProps) => {
         {itemData.map((item) => (
           <tr key={item.id}>
             <td className="py-4">{item.name}</td>
-            <td className="py-4 text-right w-24">{item.price.small}</td>
-            <td className="py-4 text-right w-24">{item.price.medium}</td>
-            <td className="py-4 text-right w-24">{item.price.large}</td>
+            <td className="text-(--tertiary) py-4 text-right w-24">${item.price.small}</td>
+            <td className="text-(--tertiary) py-4 text-right w-24">${item.price.medium}</td>
+            <td className="text-(--tertiary) py-4 text-right w-24">${item.price.large}</td>
           </tr>
         ))}
       </tbody>

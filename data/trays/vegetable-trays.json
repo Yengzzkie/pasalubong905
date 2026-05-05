@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Adobong Sitaw",
+    "price": {
+      "small": "55",
+      "medium": "65",
+      "large": "120"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Pinakbet",
+    "price": {
+      "small": "60",
+      "medium": "70",
+      "large": "130"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Chopsuey",
+    "price": {
+      "small": "60",
+      "medium": "70",
+      "large": "130"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Ginataang Langka",
+    "price": {
+      "small": "60",
+      "medium": "70",
+      "large": "120"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ginatang Sitaw at Kalabasa",
+    "price": {
+      "small": "55",
+      "medium": "65",
+      "large": "120"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ginisang Ampalaya",
+    "price": {
+      "small": "55",
+      "medium": "65",
+      "large": "120"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Laing",
+    "price": {
+      "small": "65",
+      "medium": "85",
+      "large": "150"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Adobong Labong",
+    "price": {
+      "small": "55",
+      "medium": "65",
+      "large": "120"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Labong with Saluyot & Fried Fish",
+    "price": {
+      "small": "60",
+      "medium": "70",
+      "large": "130"
+    }
+  }
+]

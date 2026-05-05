@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Adobo",
+    "price": {
+      "small": "60",
+      "medium": "75",
+      "large": "130"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Afritada",
+    "price": {
+      "small": "60",
+      "medium": "75",
+      "large": "130"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Chicken Tinola",
+    "price": {
+      "small": "55",
+      "medium": "70",
+      "large": "125"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Fried Chicken Wings",
+    "price": {
+      "small": "55",
+      "medium": "75",
+      "large": "130"
+    }
+  }
+]
