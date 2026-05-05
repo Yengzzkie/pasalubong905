@@ -3,7 +3,7 @@ import { Noto_Serif } from "next/font/google";
 import FoodTrayTable from "@/components/FoodTrayTable/FoodTrayTable";
 import PerPoundPieceTable from "@/components/PerPoundPieceTable/PerPoundPieceTable";
 import DessertsTrayTable from "@/components/DessertsTrayTable/DessertsTrayTable";
-import GrainDivider from "@/components/ui/GrainDivider/GrainDivider";
+import InabelDivider from "@/components/ui/InabelDivider/InabelDivider";
 import porkTrays from "@/data/trays/pork-trays.json";
 import beefTrays from "@/data/trays/beef-trays.json";
 import goatTrays from "@/data/trays/goat-trays.json";
@@ -109,7 +109,7 @@ const PartyTraysPage = () => {
           <div className="lg:col-span-12">
 
             {/* <!-- Pork Dishes --> */}
-            <div>
+            <div className="mb-10">
               <div className="flex items-center text-(--primary) gap-4 mb-8">
                 <h2 className="font-bold border-l p-4">Pork Party Trays</h2>
               </div>
@@ -119,10 +119,10 @@ const PartyTraysPage = () => {
               </div>
             </div>
 
-            <GrainDivider />
+            <InabelDivider />
 
             {/* <!-- Beef Dishes --> */}
-            <div>
+            <div className="my-10">
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Beef Party Trays</h2>
               </div>
@@ -131,10 +131,10 @@ const PartyTraysPage = () => {
               </div>
             </div>
 
-            <GrainDivider />
+            <InabelDivider />
 
             {/* <!-- Fish and Seafood Dishes --> */}
-            <div>
+            <div className="my-10">
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Fish and Seafood Party Trays</h2>
               </div>
@@ -144,10 +144,10 @@ const PartyTraysPage = () => {
               </div>
             </div>
 
-            <GrainDivider />
+            <InabelDivider />
 
             {/* <!-- Goat Dishes --> */}
-            <div>
+            <div className="my-10">
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Goat Party Trays</h2>
               </div>
@@ -156,10 +156,10 @@ const PartyTraysPage = () => {
               </div>
             </div>
 
-            <GrainDivider />
+            <InabelDivider />
 
             {/* <!-- Vegetable Dishes --> */}
-            <div>
+            <div className="my-10">
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Vegetable Party Trays</h2>
               </div>
@@ -169,10 +169,10 @@ const PartyTraysPage = () => {
               </div>
             </div>
 
-            <GrainDivider />
+            <InabelDivider />
 
             {/* <!-- Rice and Noodles Dishes --> */}
-            <div>
+            <div className="my-10">
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Rice and Noodles Party Trays</h2>
               </div>
@@ -181,10 +181,10 @@ const PartyTraysPage = () => {
               </div>
             </div>
 
-            <GrainDivider />
+            <InabelDivider />
 
             {/* <!-- Chicken Dishes --> */}
-            <div>
+            <div className="my-10">
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Chicken Party Trays</h2>
               </div>
@@ -194,7 +194,7 @@ const PartyTraysPage = () => {
               </div>
             </div>
 
-            <GrainDivider />
+            <InabelDivider />
 
             <DessertsTrayTable itemData={desserts} />
           </div>

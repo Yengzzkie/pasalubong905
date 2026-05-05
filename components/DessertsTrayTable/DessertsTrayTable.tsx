@@ -11,7 +11,7 @@ type PerPoundPieceTableProps = {
 
 const DessertsTrayTable = ({ itemData }: PerPoundPieceTableProps) => {
   return (
-    <div className="p-8 bg-(--secondary-bg) border-l-4 border-(--primary) w-full h-fit">
+    <div className="p-8 bg-(--secondary-bg) border-l-4 border-(--primary) mt-10 w-full h-fit">
       <h3 className="noto-serif text-(--primary) mb-6">DESSERTS</h3>
       <div className="space-y-4">
         {itemData.map((item) => (
