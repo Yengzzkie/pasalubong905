@@ -15,7 +15,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 export default function Home() {
 
   return (
-    <header className="relative h-230.25 flex items-center justify-center overflow-hidden">
+    <header className="relative h-150.25 lg:h-230.25 flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuCifA8QfOVAhyrpQOa2ktRXetHc7Ne5McciHHTL9-_kTXsuG7tDKezox77qXQY93Q3nJP-_Q8Np1a68YzqXqnixep9ZLrOqTh6bcLiekHBe905NthlSzKpL47GN2lb7HhQN80-gRQ3RFV20NBUfrgV_p0Ph9WO912eHcyDu52OiOhv-ldAhunShz7Tu7zIY0br6zqaq42VgUezjfuIacGk65Ml9Vdamn-4dzp2DGgxyOSd7G2iIrE3YNYDkKo70GtVjpisGdZR5lWs"
@@ -27,10 +27,10 @@ export default function Home() {
         />
       </div>
       <div className="relative z-10 text-center text-white px-4">
-        <p className={`${beVietnamPro.className} text-(--primary-light) tracking-[0.4em] uppercase mb-6`}>
+        <p className={`${beVietnamPro.className} text-(--primary-light) text-sm lg:text-lg tracking-[0.4em] uppercase mb-6`}>
           PASALUBONG905 | OSHAWA
         </p>
-        <h1 className={`${notoSerif.className} text-7xl font-bold mb-12 max-w-4xl leading-22 text-shadow-[0_4px_10px_rgba(0,0,0,0.95)]`}>
+        <h1 className={`${notoSerif.className} text-4xl lg:text-7xl font-bold mb-12 max-w-4xl leading-14 lg:leading-22 text-shadow-[0_4px_10px_rgba(0,0,0,0.95)]`}>
           Elevated Filipino <span className="italic font-light">cuisine</span>{" "}
           crafted for the <span className="italic font-light">modern</span> table.
         </h1>
