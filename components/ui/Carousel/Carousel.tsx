@@ -57,35 +57,31 @@ export default function Carousel({ items }: itemProps) {
   const sliderRef = useRef<Slider | null>(null);
 
   const settings: Settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2500,
-    cssEase: "ease-in-out",
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+  dots: true,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 500,
+  autoplaySpeed: 2500,
+  cssEase: "ease-in-out",
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />,
 
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: { slidesToShow: 2 },
+    },
+    {
+      breakpoint: 640,
+      settings: { slidesToShow: 1 },
+    },
+  ],
+};
 
   return (
-    <div className="slider-container px-4 md:px-8">
+    <div className="slider-container md:px-8">
       <Slider ref={sliderRef} {...settings}>
         {items.map((item, index) => (
           <div key={index} className="px-3">

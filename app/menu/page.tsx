@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Noto_Serif } from "next/font/google";
 import GrainDivider from "@/components/ui/GrainDivider/GrainDivider";
 import InabelDivider from "@/components/ui/InabelDivider/InabelDivider";
@@ -44,8 +45,8 @@ const MenuPage = () => {
     },
     {
       id: 6,
-      name: "Beverages",
-      link: "beverages",
+      name: "Refreshers",
+      link: "refreshers",
     },
   ];
 
@@ -172,15 +173,16 @@ const MenuPage = () => {
             </div>
           </div>
         </section>
+
         {/* <!-- Section: Inumin --> */}
-        <section className="scroll-mt-32" id="inumin">
+        <section className="scroll-mt-32" id="refreshers">
           <div className="bg-stone-100 p-12 md:p-20">
             <div className="flex flex-col md:flex-row gap-16">
               <div className="md:w-1/3">
-                <h2 className="font-headline-lg text-headline-lg text-primary mb-6">
-                  Inumin
+                <h2 className="noto-serif text-(--primary) font-bold text-5xl mb-6">
+                  Refreshers
                 </h2>
-                <p className="font-body-md text-on-surface-variant mb-8">
+                <p className="text-(--tertiary) mb-8">
                   Curated beverages including heritage coffee, artisanal teas,
                   and house-made tropical infusions.
                 </p>
@@ -211,68 +213,73 @@ const MenuPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-10">
-                <div>
-                  <div className="mb-8">
-                    <h4 className="font-label-sm text-primary border-b border-outline-variant pb-2 mb-4">
-                      SIGNATURES
-                    </h4>
-                    <ul className="space-y-6">
-                      <li className="flex justify-between items-baseline">
-                        <div>
-                          <span className="font-headline-md text-lg block">
-                            Tahanan House Blend
-                          </span>
-                          <span className="text-xs text-on-surface-variant font-body-md">
-                            Cold-pressed calamansi and honey ginger
-                          </span>
-                        </div>
-                        <span className="font-label-sm">₱220</span>
-                      </li>
-                      <li className="flex justify-between items-baseline">
-                        <div>
-                          <span className="font-headline-md text-lg block">
-                            Hibiscus &amp; Roselle Tea
-                          </span>
-                          <span className="text-xs text-on-surface-variant font-body-md">
-                            Locally grown roselle, chilled
-                          </span>
-                        </div>
-                        <span className="font-label-sm">₱180</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div>
-                  <div className="mb-8">
-                    <h4 className="font-label-sm text-primary border-b border-outline-variant pb-2 mb-4">
-                      CRAFT COCKTAILS
-                    </h4>
-                    <ul className="space-y-6">
-                      <li className="flex justify-between items-baseline">
-                        <div>
-                          <span className="font-headline-md text-lg block">
-                            The Galleon
-                          </span>
-                          <span className="text-xs text-on-surface-variant font-body-md">
-                            Aged rum, tamarind reduction, and spice
-                          </span>
-                        </div>
-                        <span className="font-label-sm">₱450</span>
-                      </li>
-                      <li className="flex justify-between items-baseline">
-                        <div>
-                          <span className="font-headline-md text-lg block">
-                            Sampaguita Martini
-                          </span>
-                          <span className="text-xs text-on-surface-variant font-body-md">
-                            Gin infused with fragrant sampaguita
-                          </span>
-                        </div>
-                        <span className="font-label-sm">₱480</span>
-                      </li>
-                    </ul>
-                  </div>
+              <div className="md:w-2/3 gap-10">
+                <div className="mb-8">
+                  <h4 className="text-(--primary) border-b pb-2 mb-4">
+                    SIGNATURES
+                  </h4>
+                  <ul className="grid grid-cols-1 md:grid-cols-2 space-y-10">
+                    <li className="flex justify-between items-center">
+                      <Image src="/refreshers/HALO HALO.png" alt="Tahanan House Blend" className="w-30 h-auto" width={100} height={100} />
+                      <div>
+                        <span className="noto-serif text-lg block">
+                          Halo-Halo
+                        </span>
+                        <span className="text-xs text-(--tertiary)">
+                          Cold-pressed calamansi and honey ginger
+                        </span>
+                      </div>
+                      <span className="self-start">$4.99</span>
+                    </li>
+                    <li className="flex justify-between items-center">
+                      <Image src="/refreshers/MANGO GRAHAM.png" alt="Tahanan House Blend" className="w-30 h-auto" width={100} height={100} />
+                      <div>
+                        <span className="noto-serif text-lg block">
+                          Mango Graham
+                        </span>
+                        <span className="text-xs text-(--tertiary)">
+                          Cold-pressed calamansi and honey ginger
+                        </span>
+                      </div>
+                      <span className="self-start">$4.99</span>
+                    </li>
+                    <li className="flex justify-between items-center">
+                      <Image src="/refreshers/MANGO SHAKE.png" alt="Tahanan House Blend" className="w-30 h-auto" width={100} height={100} />
+                      <div>
+                        <span className="noto-serif text-lg block">
+                          Mango Shake
+                        </span>
+                        <span className="text-xs text-(--tertiary)">
+                          Cold-pressed calamansi and honey ginger
+                        </span>
+                      </div>
+                      <span className="self-start">$4.99</span>
+                    </li>
+                    <li className="flex justify-between items-center">
+                      <Image src="/refreshers/SAGO'T GULAMAN.png" alt="Tahanan House Blend" className="w-30 h-auto" width={100} height={100} />
+                      <div>
+                        <span className="noto-serif text-lg block">
+                          Sago&apos;t Gulaman
+                        </span>
+                        <span className="text-xs text-(--tertiary)">
+                          Cold-pressed calamansi and honey ginger
+                        </span>
+                      </div>
+                      <span className="self-start">$4.99</span>
+                    </li>
+                    <li className="flex justify-between items-center">
+                      <Image src="/refreshers/TAHO.png" alt="Tahanan House Blend" className="w-30 h-auto" width={100} height={100} />
+                      <div>
+                        <span className="noto-serif text-lg block">
+                          Taho
+                        </span>
+                        <span className="text-xs text-(--tertiary)">
+                          Cold-pressed calamansi and honey ginger
+                        </span>
+                      </div>
+                      <span className="self-start">$4.99</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

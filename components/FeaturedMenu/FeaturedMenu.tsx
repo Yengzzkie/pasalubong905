@@ -67,36 +67,6 @@ const FeaturedMenu = () => {
 
         {/* Carousel */}
         <Carousel items={menuItems} />
-        {/* <div className="overflow-hidden">
-          <div
-            className="flex transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]"
-            style={{ transform: `translateX(-${index * ITEM_WIDTH}%)`}}
-          >
-            {menuItems.map((item, i) => (
-              <div key={i} className="w-full md:w-1/3 shrink-0 px-6">
-                <div className="group">
-                  <div className="aspect-square bg-stone-200 mb-8 overflow-hidden relative">
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                  </div>
-
-                  <h3 className={`${notoSerif.className} text-2xl font-bold mb-3`}>
-                    {item.title}
-                  </h3>
-
-                  <p className="mb-4">{item.description}</p>
-
-                  <span className="font-semibold text-(--primary)">
-                    {item.price}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div> */}
       </div>
     </section>
   );
