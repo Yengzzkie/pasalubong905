@@ -2,6 +2,7 @@ import { MdOutlineLayers, MdOutlineViewQuilt, MdGridView } from "react-icons/md"
 import { Noto_Serif } from "next/font/google";
 import FoodTrayTable from "@/components/FoodTrayTable/FoodTrayTable";
 import PerPoundPieceTable from "@/components/PerPoundPieceTable/PerPoundPieceTable";
+import DessertsTrayTable from "@/components/DessertsTrayTable/DessertsTrayTable";
 import GrainDivider from "@/components/ui/GrainDivider/GrainDivider";
 import porkTrays from "@/data/trays/pork-trays.json";
 import beefTrays from "@/data/trays/beef-trays.json";
@@ -14,6 +15,7 @@ import porkPerPiece from "@/data/perpiece/pork-per-piece.json";
 import seafoodPerPiece from "@/data/perpiece/seafood-per-piece.json";
 import vegetablePerPiece from "@/data/perpiece/vegetable-per-piece.json";
 import chickenPerPiece from "@/data/perpiece/chicken-per-piece.json";
+import desserts from "@/data/perpiece/desserts.json";
 
 const notoSerif = Noto_Serif({
     weight: ["400", "500", "600", "700", "800", "900"],
@@ -109,7 +111,7 @@ const PartyTraysPage = () => {
             {/* <!-- Pork Dishes --> */}
             <div>
               <div className="flex items-center text-(--primary) gap-4 mb-8">
-                <h2 className="font-bold border-l p-4">Pork</h2>
+                <h2 className="font-bold border-l p-4">Pork Party Trays</h2>
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={porkTrays} />
@@ -122,7 +124,7 @@ const PartyTraysPage = () => {
             {/* <!-- Beef Dishes --> */}
             <div>
               <div className="flex items-center gap-4 text-(--primary) mb-8">
-                <h2 className="font-bold border-l p-4">Beef</h2>
+                <h2 className="font-bold border-l p-4">Beef Party Trays</h2>
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={beefTrays} />
@@ -134,7 +136,7 @@ const PartyTraysPage = () => {
             {/* <!-- Fish and Seafood Dishes --> */}
             <div>
               <div className="flex items-center gap-4 text-(--primary) mb-8">
-                <h2 className="font-bold border-l p-4">Fish and Seafood</h2>
+                <h2 className="font-bold border-l p-4">Fish and Seafood Party Trays</h2>
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={seafoodTrays} />
@@ -147,7 +149,7 @@ const PartyTraysPage = () => {
             {/* <!-- Goat Dishes --> */}
             <div>
               <div className="flex items-center gap-4 text-(--primary) mb-8">
-                <h2 className="font-bold border-l p-4">Goat</h2>
+                <h2 className="font-bold border-l p-4">Goat Party Trays</h2>
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={goatTrays} />
@@ -159,7 +161,7 @@ const PartyTraysPage = () => {
             {/* <!-- Vegetable Dishes --> */}
             <div>
               <div className="flex items-center gap-4 text-(--primary) mb-8">
-                <h2 className="font-bold border-l p-4">Vegetable</h2>
+                <h2 className="font-bold border-l p-4">Vegetable Party Trays</h2>
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={vegetableTrays} />
@@ -172,7 +174,7 @@ const PartyTraysPage = () => {
             {/* <!-- Rice and Noodles Dishes --> */}
             <div>
               <div className="flex items-center gap-4 text-(--primary) mb-8">
-                <h2 className="font-bold border-l p-4">Rice and Noodles</h2>
+                <h2 className="font-bold border-l p-4">Rice and Noodles Party Trays</h2>
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={riceNoodleTrays} />
@@ -184,13 +186,17 @@ const PartyTraysPage = () => {
             {/* <!-- Chicken Dishes --> */}
             <div>
               <div className="flex items-center gap-4 text-(--primary) mb-8">
-                <h2 className="font-bold border-l p-4">Chicken</h2>
+                <h2 className="font-bold border-l p-4">Chicken Party Trays</h2>
               </div>
               <div className="flex gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={chickenTrays} />
                 <PerPoundPieceTable itemData={chickenPerPiece} />
               </div>
             </div>
+
+            <GrainDivider />
+
+            <DessertsTrayTable itemData={desserts} />
           </div>
         </div>
       </main>

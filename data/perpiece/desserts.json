@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Biko",
+    "price": "50",
+    "UOM": "tray"
+  },
+  {
+    "id": 2,
+    "name": "Cassava Cake",
+    "price": "60",
+    "UOM": "tray"
+  },
+  {
+    "id": 3,
+    "name": "Royal Bibingka",
+    "price": "50",
+    "UOM": "tray"
+  },
+  {
+    "id": 4,
+    "name": "Royal Bibingka with Coconut",
+    "price": "55",
+    "UOM": "tray"
+  },
+  {
+    "id": 5,
+    "name": "Leche Flan",
+    "price": "10.75",
+    "UOM": "tub"
+  },
+  {
+    "id": 6,
+    "name": "Ube Halaya",
+    "price": "14",
+    "UOM": "tub"
+  },
+  {
+    "id": 7,
+    "name": "Buko Pandan",
+    "price": "60",
+    "UOM": "tray"
+  },
+  {
+    "id": 7,
+    "name": "Kakanin Platter (15\" round *pichi-pichi, biko, puto, and kutsinta)",
+    "price": "50",
+    "UOM": "tray"
+  },
+  {
+    "id": 7,
+    "name": "Puto",
+    "price": "45",
+    "UOM": "50 pcs"
+  },
+  {
+    "id": 7,
+    "name": "Puto",
+    "price": "85",
+    "UOM": "100 pcs"
+  },
+  {
+    "id": 7,
+    "name": "Karioka",
+    "price": "4.50",
+    "UOM": "stick"
+  },
+  {
+    "id": 7,
+    "name": "Pichi-Pichi",
+    "price": "55",
+    "UOM": "50 pcs"
+  },
+  {
+    "id": 7,
+    "name": "Ginataang Bilo-Bilo",
+    "price": "60",
+    "UOM": "tray"
+  },
+  {
+    "id": 7,
+    "name": "Homemade Ensaymada",
+    "price": "28",
+    "UOM": "6 pcs (box)"
+  },
+  {
+    "id": 7,
+    "name": "Fruit Salad",
+    "price": "65",
+    "UOM": "tray"
+  },
+  {
+    "id": 7,
+    "name": "Turon",
+    "price": "2.25",
+    "UOM": "pc (min order of 20 pcs)"
+  }
+]
