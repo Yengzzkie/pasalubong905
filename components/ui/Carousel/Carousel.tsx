@@ -57,36 +57,51 @@ export default function Carousel({ items }: itemProps) {
   const sliderRef = useRef<Slider | null>(null);
 
   const settings: Settings = {
-  dots: true,
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  speed: 500,
-  autoplaySpeed: 2500,
-  cssEase: "ease-in-out",
-  nextArrow: <SampleNextArrow />,
-  prevArrow: <SamplePrevArrow />,
-
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: { slidesToShow: 2 },
-    },
-    {
-      breakpoint: 640,
-      settings: { slidesToShow: 1 },
-    },
-  ],
-};
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 2500,
+    cssEase: "ease-in-out",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
 
   return (
     <div className="slider-container md:px-8">
       <Slider ref={sliderRef} {...settings}>
         {items.map((item, index) => (
-          <div key={index} className="px-3">
-            <div className="group">
-              <div className="aspect-square overflow-hidden mb-6">
+          <div key={index} className="px-1 lg:px-3 h-full">
+            <div className="flex flex-col h-full group">
+              <div className="aspect-square overflow-hidden mb-2 lg:mb-6">
                 <img
                   src={item.image}
                   alt={item.name}
@@ -94,11 +109,16 @@ export default function Carousel({ items }: itemProps) {
                 />
               </div>
 
-              <h3 className="text-2xl font-bold mb-2">{item.name}</h3>
+              <h3 className="text-sm lg:text-2xl font-bold mb-2">
+                {item.name}
+              </h3>
 
-              <p className="mb-3 text-sm text-gray-500">{item.description}</p>
+              {/* 👇 this makes heights consistent */}
+              <p className="mb-3 text-xs lg:text-sm text-gray-500 flex-grow">
+                {item.description}
+              </p>
 
-              <span className="font-semibold text-(--primary)">CAD 28</span>
+              <span className="font-semibold text-(--primary)">${item.price}</span>
             </div>
           </div>
         ))}

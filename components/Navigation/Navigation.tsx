@@ -1,39 +1,56 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 export default function Home() {
+  const pathname = usePathname();
 
   const navLinks = [
+    { name: "Home", href: "/" },
     { name: "Menu", href: "/menu" },
-    { name: "Services", href: "" },
-    { name: "Gallery", href: "#" },
-    { name: "Party Trays", href: "party-trays" },
+    { name: "Party Trays", href: "/party-trays" },
+    { name: "Services", href: "/services" },
+    { name: "Gallery", href: "/gallery" },
   ];
 
   return (
-    <div>
-      <nav className="bg-(--neutral) top-0 sticky z-50 pb-2 transition-all duration-300">
-        <div className="flex justify-between items-center w-full px-16 h-24 max-w-screen-2xl mx-auto">
-          <div className="text-2xl font-serif font-light tracking-[0.2em] text-orange-900">
-            <Link href="/">
-              <Image src="/logo.png" alt="logo" width={250} height={250} />
-            </Link>
-          </div>
-          <div className="hidden md:flex items-center space-x-12">
-            {navLinks.map((link) => (
-              <a
+    <nav className="bg-(--neutral) sticky top-0 z-50 pb-2">
+      <div className="flex justify-between items-center w-full px-16 h-24 max-w-screen-2xl mx-auto">
+        <Link href="/">
+          <Image src="/logo.png" alt="logo" width={250} height={250} />
+        </Link>
+
+        <div className="hidden md:flex items-center space-x-12">
+          {navLinks.map((link) => {
+            const isActive =
+              link.href === "/"
+                ? pathname === "/"
+                : pathname.startsWith(link.href);
+
+            return (
+              <Link
                 key={link.name}
-                className="text-stone-500 font-medium uppercase text-xs tracking-tighter hover:text-orange-800 hover:tracking-widest  transition-all duration-300"
                 href={link.href}
+                className={`
+                  text-xs font-medium uppercase transition-all duration-300
+                  ${isActive
+                    ? "text-orange-900 tracking-widest underline underline-offset-4"
+                    : "text-stone-500 hover:text-orange-800 hover:tracking-widest"
+                  }
+                `}
               >
                 {link.name}
-              </a>
-            ))}
-          </div>
-          <button className="font-label-sm text-label-sm uppercase tracking-widest hover:bg-(--primary) hover:text-(--neutral) transition-all border border-(--primary) px-8 py-3">
-            Order Now
-          </button>
+              </Link>
+            );
+          })}
         </div>
-      </nav>
-    </div>
+
+        <button className="uppercase border border-(--primary) px-8 py-3 hover:bg-(--primary) hover:text-(--neutral)">
+          Order Now
+        </button>
+      </div>
+    </nav>
   );
 }
