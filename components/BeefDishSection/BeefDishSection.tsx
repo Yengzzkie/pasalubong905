@@ -23,11 +23,11 @@ const BeefDishSection = () => {
         </div>
         <div className="md:col-span-5">
           <h2
-            className={`${notoSerif.className} font-bold text-(--primary) text-5xl mb-4`}
+            className={`${notoSerif.className} font-bold text-(--primary) text-2xl lg:text-5xl mb-2 lg:mb-4`}
           >
             Beef Dishes
           </h2>
-          <p className="font-body-md text-on-surface-variant">
+          <p className="text-xs lg:text-base">
             Small bites and starters designed to awaken the palate, inspired by
             roadside snacks and coastal harvests.
           </p>
@@ -38,8 +38,8 @@ const BeefDishSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
         {beefDishes.map((beef) => (
           <div key={beef.id} className="flex justify-between pb-6">
-            <div className="flex items-center gap-4 border-b-2 border-(--primary) pl-4 max-w-[80%]">
-              <div className="w-30 h-30 shrink-0 overflow-hidden">
+            <div className="flex items-center gap-4 border-b-2 border-(--primary) pl-4 pb-4 max-w-[80%]">
+              <div className="w-20 lg:w-36 h-20 lg:h-36 shrink-0 overflow-hidden">
                 <Image
                   className="w-full h-full object-cover"
                   src={beef.image}
@@ -55,7 +55,7 @@ const BeefDishSection = () => {
                 <p className="text-xs italic">{beef.description}</p>
               </div>
             </div>
-            <div className="flex gap-2 mt-8">
+            <div className="flex gap-2 mt-2 lg:mt-8">
               <div className="flex flex-col items-center">
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   S

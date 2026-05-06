@@ -53,7 +53,7 @@ const MenuPage = () => {
   return (
     <div className="relative">
       <div className="banig-pattern" />
-      <main className="relative max-w-full w-full lg:max-w-screen-2xl mx-auto px-4 lg:px-16 pt-12 lg:pt-24 pb-32 z-10">
+      <main className="relative max-w-full w-full lg:max-w-screen-2xl mx-auto px-4 lg:px-16 pt-12 lg:pt-24 pb-12 lg:pb-32 z-10">
         {/* <!-- Header Section --> */}
         <header className="mb-12 lg:mb-24 text-center">
           <span className="text-(--primary) text-xs lg:text-sm uppercase tracking-[0.4em] block mb-2 lg:mb-4">
@@ -63,7 +63,7 @@ const MenuPage = () => {
             Our Curated Menu
           </h1>
           <div className="bg-(--primary) w-24 h-px mx-auto mb-4 lg:mb-8"></div>
-          <p className="text-xs lg:text-sm max-w-2xl mx-auto font-body-lg text-on-surface-variant leading-relaxed">
+          <p className="text-xs lg:text-base max-w-2xl mx-auto font-body-lg leading-relaxed">
             A curated journey through the Philippine archipelago, reimagining
             traditional flavors with modern techniques and artisanal ingredients
             sourced from local heritage farmers.
@@ -71,7 +71,7 @@ const MenuPage = () => {
         </header>
 
         {/* <!-- Menu Navigation (Anchor Links) --> */}
-        <div className="sticky top-24 left-0 flex flex-wrap lg:flex-row justify-center gap-4 lg:gap-12 backdrop-blur-lg backdrop-saturate-150 bg-white/30 lg:shadow-lg mb-10 lg:mb-20 border-y border-white/10 py-6 z-10">
+        <div className="lg:sticky top-24 left-0 flex flex-wrap lg:flex-row justify-center gap-4 lg:gap-12 backdrop-blur-lg backdrop-saturate-150 bg-white/30 lg:shadow-lg mb-10 lg:mb-20 border-y border-white/10 py-6 z-10">
           {menuNav.map((link) => (
             <a
               key={link.id}
@@ -107,10 +107,10 @@ const MenuPage = () => {
         <GrainDivider />
 
         {/* <!-- Section: DESSERTS --> */}
-        <section className="mb-32 scroll-mt-32" id="desserts">
+        <section className="mb-16 lg:mb-32 scroll-mt-32" id="desserts">
           <div className="text-center mb-16">
             <h2
-              className={`${notoSerif.className} font-bold text-(--primary) text-5xl mb-4`}
+              className={`${notoSerif.className} font-bold text-(--primary) text-3xl lg:text-5xl mb-4`}
             >
               Panghimagas (Desserts)
             </h2>
@@ -174,15 +174,15 @@ const MenuPage = () => {
           </div>
         </section>
 
-        {/* <!-- Section: Inumin --> */}
+        {/* <!-- Section: Refreshers --> */}
         <section className="scroll-mt-32" id="refreshers">
-          <div className="bg-stone-100 p-12 md:p-20">
+          <div className="bg-stone-100 p-2 md:p-20">
             <div className="flex flex-col md:flex-row gap-16">
               <div className="md:w-1/3">
-                <h2 className="noto-serif text-(--primary) font-bold text-5xl mb-6">
+                <h2 className="noto-serif text-(--primary) font-bold text-3xl text-center lg:text-left lg:text-5xl mb-3 lg:mb-6">
                   Refreshers
                 </h2>
-                <p className="text-(--tertiary) mb-8">
+                <p className="text-(--tertiary) text-center lg:text-left mb-8">
                   Curated beverages including heritage coffee, artisanal teas,
                   and house-made tropical infusions.
                 </p>
@@ -213,12 +213,12 @@ const MenuPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="md:w-2/3 gap-10">
+              <div className="w-full lg:w-2/3 gap-10">
                 <div className="mb-8">
                   <h4 className="text-(--primary) border-b pb-2 mb-4">
                     SIGNATURES
                   </h4>
-                  <ul className="grid grid-cols-1 md:grid-cols-2 space-y-10">
+                  <ul className="grid grid-cols-1 md:grid-cols-2 space-y-8 lg:space-y-10">
                     <li className="flex justify-between items-center">
                       <Image src="/refreshers/HALO HALO.png" alt="Tahanan House Blend" className="w-30 h-auto" width={100} height={100} />
                       <div>

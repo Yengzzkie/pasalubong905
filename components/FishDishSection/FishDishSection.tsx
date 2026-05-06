@@ -12,10 +12,10 @@ const ChickenDishSection = () => {
     <section className="mb-32 scroll-mt-32" id="seafood-dishes">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-16 flex-row-reverse">
         <div className="md:col-span-5 order-2 md:order-1 text-right">
-          <h2 className={`${notoSerif.className} font-bold text-(--primary) text-5xl mb-4`}>
+          <h2 className={`${notoSerif.className} font-bold text-(--primary) text-2xl lg:text-5xl mb-2 lg:mb-4`}>
             Fish Dishes
           </h2>
-          <p className="font-body-md text-on-surface-variant">
+          <p className="text-xs lg:text-base">
             Hearty main courses that celebrate the diversity of regional
             Philippine slow-cooking traditions.
           </p>
@@ -35,7 +35,7 @@ const ChickenDishSection = () => {
         {fishDishes.map((fish) => (
           <div key={fish.id} className="flex justify-between pb-6">
             <div className="flex items-center gap-4 border-b-2 border-(--primary) pb-4 max-w-[80%]">
-              <div className="w-36 h-36 shrink-0 overflow-hidden">
+              <div className="w-20 lg:w-36 h-20 lg:h-36 shrink-0 overflow-hidden">
                 <Image
                   className="w-full h-full object-cover"
                   src={fish.image}
@@ -51,7 +51,7 @@ const ChickenDishSection = () => {
                 <p className="text-xs italic">{fish.description}</p>
               </div>
             </div>
-            <div className="flex gap-2 mt-8">
+            <div className="flex gap-2 mt-2 lg:mt-8">
               <div className="flex flex-col items-center">
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   S
