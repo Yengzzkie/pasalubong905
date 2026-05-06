@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Halo-Halo",
+    "image": "/refreshers/HALO HALO.png",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": "4.99"
+  },
+  {
+    "name": "Mango Graham",
+    "image": "/refreshers/MANGO GRAHAM.png",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": "4.99"
+  },
+  {
+    "name": "Mango Shake",
+    "image": "/refreshers/MANGO SHAKE.png",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": "4.99"
+  },
+  {
+    "name": "Sago't Gulaman",
+    "image": "/refreshers/SAGO'T GULAMAN.png",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": "4.99"
+  },
+  {
+    "name": "Taho",
+    "image": "/refreshers/TAHO.png",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": "4.99"
+  }
+]
