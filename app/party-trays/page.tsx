@@ -25,7 +25,7 @@ const notoSerif = Noto_Serif({
 const PartyTraysPage = () => {
   return (
     <div className="relative bg-(--primary-bg)">
-      <main className="max-w-screen-2xl mx-auto px-16">
+      <main className="max-w-screen-2xl mx-auto px-4 lg:px-16">
 
         {/* <!-- Hero Section --> */}
         <section className="py-24 text-center">
@@ -113,7 +113,7 @@ const PartyTraysPage = () => {
               <div className="flex items-center text-(--primary) gap-4 mb-8">
                 <h2 className="font-bold border-l p-4">Pork Party Trays</h2>
               </div>
-              <div className="flex gap-12 overflow-x-auto">
+              <div className="flex flex-col lg:flex-row gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={porkTrays} />
                 <PerPoundPieceTable itemData={porkPerPiece} />
               </div>
@@ -138,7 +138,7 @@ const PartyTraysPage = () => {
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Fish and Seafood Party Trays</h2>
               </div>
-              <div className="flex gap-12 overflow-x-auto">
+              <div className="flex flex-col lg:flex-row gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={seafoodTrays} />
                 <PerPoundPieceTable itemData={seafoodPerPiece} />
               </div>
@@ -163,7 +163,7 @@ const PartyTraysPage = () => {
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Vegetable Party Trays</h2>
               </div>
-              <div className="flex gap-12 overflow-x-auto">
+              <div className="flex flex-col lg:flex-row gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={vegetableTrays} />
                 <PerPoundPieceTable itemData={vegetablePerPiece} />
               </div>
@@ -188,7 +188,7 @@ const PartyTraysPage = () => {
               <div className="flex items-center gap-4 text-(--primary) mb-8">
                 <h2 className="font-bold border-l p-4">Chicken Party Trays</h2>
               </div>
-              <div className="flex gap-12 overflow-x-auto">
+              <div className="flex flex-col lg:flex-row gap-12 overflow-x-auto">
                 <FoodTrayTable itemData={chickenTrays} />
                 <PerPoundPieceTable itemData={chickenPerPiece} />
               </div>

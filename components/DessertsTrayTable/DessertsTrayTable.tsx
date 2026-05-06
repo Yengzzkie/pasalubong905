@@ -16,8 +16,8 @@ const DessertsTrayTable = ({ itemData }: PerPoundPieceTableProps) => {
       <div className="space-y-4">
         {itemData.map((item) => (
           <div key={item.name} className="flex justify-between items-center py-2 border-b border-gray-300">
-            <span>{item.name}</span>
-            <span className="text-(--tertiary)">${item.price} / {item.UOM}</span>
+            <span className="max-w-1/2">{item.name}</span>
+            <span className="text-(--tertiary) max-w-1/2">${item.price} / {item.UOM}</span>
           </div>
         ))}
       </div>
