@@ -114,11 +114,11 @@ export default function Carousel({ items }: itemProps) {
               </h3>
 
               {/* 👇 this makes heights consistent */}
-              <p className="mb-3 text-xs lg:text-sm text-gray-500 flex-grow">
+              <p className="mb-2 lg:mb-4 text-xs lg:text-sm text-gray-500 flex-grow">
                 {item.description}
               </p>
 
-              <span className="font-semibold text-(--primary)">${item.price}</span>
+              <span className="bg-(--primary) text-(--neutral) text-xs lg:text-sm w-fit px-1 py-0.5">${item.price}</span>
             </div>
           </div>
         ))}
