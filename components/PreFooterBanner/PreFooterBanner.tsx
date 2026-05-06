@@ -21,7 +21,7 @@ const PreFooterBanner = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-6">
           <Link href="https://www.skipthedishes.com/pasalubong-bond" target="_blank">
-            <button className="flex flex-col items-center bg-white text-(--primary) px-12 py-5 uppercase tracking-widest border border-white hover:bg-(--primary-light) hover:border-(--primary-light) transition-all h-24 mx-auto">
+            <button className="flex flex-col items-center bg-white text-(--primary) px-12 py-5 uppercase tracking-widest border border-white hover:bg-(--primary-light) hover:border-(--primary-light) transition-all h-24 w-full mx-auto">
               <span>Order on</span>
               <Image
                 src="/SkipTheDishes.png"
@@ -32,7 +32,7 @@ const PreFooterBanner = () => {
             </button>
           </Link>
           <Link href="https://www.ubereats.com/ca/store/pasalubong-905/qrJQk32dS7GtkBSoQ8LtUQ?srsltid=AfmBOoq2qukY3zGHIt7OesEpE6ECKvgh4OKUZGsG4O5Ftxm3LV60hALk" target="_blank">
-            <button className="flex flex-col items-center gap-2 bg-white text-(--primary) px-12 py-5 uppercase tracking-widest border border-white hover:bg-(--primary-light) hover:border-(--primary-light) transition-all h-24 mx-auto">
+            <button className="flex flex-col items-center gap-2 bg-white text-(--primary) px-12 py-5 uppercase tracking-widest border border-white hover:bg-(--primary-light) hover:border-(--primary-light) transition-all h-24 w-full mx-auto">
               <span>Order on</span>
               <Image
                 src="/UberEatsLogo.png"
