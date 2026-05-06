@@ -53,17 +53,17 @@ const MenuPage = () => {
   return (
     <div className="relative">
       <div className="banig-pattern" />
-      <main className="relative max-w-screen-2xl mx-auto px-16 pt-24 pb-32 z-10">
+      <main className="relative max-w-full w-full lg:max-w-screen-2xl mx-auto px-4 lg:px-16 pt-12 lg:pt-24 pb-32 z-10">
         {/* <!-- Header Section --> */}
-        <header className="mb-24 text-center">
-          <span className="text-(--primary) uppercase tracking-[0.4em] block mb-4">
+        <header className="mb-12 lg:mb-24 text-center">
+          <span className="text-(--primary) text-xs lg:text-sm uppercase tracking-[0.4em] block mb-2 lg:mb-4">
             Fine Dining Selection
           </span>
-          <h1 className={`${notoSerif.className} text-7xl font-bold mb-8`}>
+          <h1 className={`${notoSerif.className} text-3xl lg:text-7xl font-bold mb-4 lg:mb-8`}>
             Our Curated Menu
           </h1>
-          <div className="bg-(--primary) w-24 h-px mx-auto mb-8"></div>
-          <p className="max-w-2xl mx-auto font-body-lg text-on-surface-variant leading-relaxed">
+          <div className="bg-(--primary) w-24 h-px mx-auto mb-4 lg:mb-8"></div>
+          <p className="text-xs lg:text-sm max-w-2xl mx-auto font-body-lg text-on-surface-variant leading-relaxed">
             A curated journey through the Philippine archipelago, reimagining
             traditional flavors with modern techniques and artisanal ingredients
             sourced from local heritage farmers.
@@ -71,11 +71,11 @@ const MenuPage = () => {
         </header>
 
         {/* <!-- Menu Navigation (Anchor Links) --> */}
-        <div className="sticky top-1 left-0 flex justify-center gap-12 backdrop-blur-lg backdrop-saturate-150 bg-white/30 shadow-lg mb-20 border-y border-white/10 py-6 z-10">
+        <div className="sticky top-24 left-0 flex flex-wrap lg:flex-row justify-center gap-4 lg:gap-12 backdrop-blur-lg backdrop-saturate-150 bg-white/30 lg:shadow-lg mb-10 lg:mb-20 border-y border-white/10 py-6 z-10">
           {menuNav.map((link) => (
             <a
               key={link.id}
-              className="uppercase tracking-widest text-shadow-[-1px_1px_3px_#56361b73] hover:text-(--primary) transition-colors"
+              className="uppercase tracking-widest lg:text-shadow-[-1px_1px_3px_#56361b73] hover:text-(--primary) transition-colors"
               href={`#${link.link}`}
             >
               {link.name}
