@@ -52,11 +52,16 @@ const MenuPage = () => {
     },
     {
       id: 7,
+      name: "Sides",
+      link: "sides",
+    },
+    {
+      id: 8,
       name: "Desserts",
       link: "desserts",
     },
     {
-      id: 8,
+      id: 9,
       name: "Refreshers",
       link: "refreshers",
     },

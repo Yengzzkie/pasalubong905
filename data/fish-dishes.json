@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Fried Daing na Bangus",
     "image": "/fish-dishes/FRIED DAING NA BANGUS.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a popular Filipino dish featuring crispy, golden-brown fish, often prepared by marinating boneless milkfish in vinegar, garlic, salt, and peppercorns.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -14,7 +14,7 @@
     "id": 2,
     "name": "Fried Pompano",
     "image": "/fish-dishes/FRIED POMPANO.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a dish featuring the pompano fish, a marine fish known for its firm, white, and mildly sweet meat, which is deep-fried or pan-fried until the skin is crispy and the inside is soft and juicy.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -25,7 +25,7 @@
     "id": 3,
     "name": "Fried Tilapya",
     "image": "/fish-dishes/FRIED TILAPYA.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a popular dish featuring tilapia fish seasoned and pan-fried or deep-fried until golden, crispy on the outside, and tender on the inside.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -36,7 +36,7 @@
     "id": 4,
     "name": "Grilled Bangus",
     "image": "/fish-dishes/GRILLED BANGUS.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a popular Filipino dish consisting of milkfish—the national fish of the Philippines—that is butterflied, stuffed with tomatoes, onions, and ginger, then grilled over charcoal until smoky and charred.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -47,7 +47,7 @@
     "id": 5,
     "name": "Fried Galunggong",
     "image": "/fish-dishes/FRIED GALUNGGONG.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a popular dish featuring galunggong fish seasoned and pan-fried or deep-fried until golden, crispy on the outside, and tender on the inside.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -58,7 +58,7 @@
     "id": 6,
     "name": "Adobong Pusit",
     "image": "/fish-dishes/ADOBONG PUSIT.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a classic Filipino dish consisting of small squid stewed in soy sauce, vinegar, garlic, onions, and its own black ink.",
     "price": {
       "small": "9",
       "medium": "12",
@@ -69,7 +69,7 @@
     "id": 7,
     "name": "Seafood Boil",
     "image": "/fish-dishes/SEAFOOD BOIL.png",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "a social dining experience and cooking method where shellfish (shrimp, mussles, crab, ), corn and potatoes are boiled together in a large pot with spices.",
     "price": {
       "small": "9",
       "medium": "12",
