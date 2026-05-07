@@ -9,7 +9,7 @@ const notoSerif = Noto_Serif({
 
 const BeefDishSection = () => {
   return (
-    <section className="mb-32 scroll-mt-32" id="beef-dishes">
+    <section className="mb-32 scroll-mt-50" id="beef-dishes">
       {/* <!-- Header --> */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-16">
         <div className="md:col-span-7 aspect-16/7 overflow-hidden">
@@ -35,7 +35,7 @@ const BeefDishSection = () => {
       </div>
 
       {/* BEEF SELECTION */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-3">
         {beefDishes.map((beef) => (
           <div key={beef.id} className="flex justify-between pb-6">
             <div className="flex items-center gap-4 border-b-2 border-(--primary) pl-4 pb-4 max-w-[80%]">

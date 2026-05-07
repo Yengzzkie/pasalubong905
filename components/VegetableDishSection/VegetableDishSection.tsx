@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Noto_Serif } from "next/font/google";
-import porkDishes from "@/data/pork-dishes.json";
+import vegetableDishes from "@/data/vegetable-dishes.json";
 
 const notoSerif = Noto_Serif({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -9,7 +9,7 @@ const notoSerif = Noto_Serif({
 
 const VegetableDishSection = () => {
   return (
-    <section className="mb-32 scroll-mt-32" id="pork-dishes">
+    <section id="vegetable-dishes" className="mb-32 scroll-mt-50">
       {/* <!-- Header --> */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-16">
         <div className="md:col-span-7 aspect-16/7 overflow-hidden">
@@ -35,8 +35,8 @@ const VegetableDishSection = () => {
       </div>
 
       {/* PORK SELECTION */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
-        {porkDishes.map((pork) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-3">
+        {vegetableDishes.map((pork) => (
           <div key={pork.id} className="flex justify-between pb-6">
             <div className="flex items-center gap-4 border-b-2 border-(--primary) pb-4 max-w-[80%]">
               <div className="w-20 lg:w-36 h-20 lg:h-36 shrink-0 overflow-hidden">
@@ -62,7 +62,7 @@ const VegetableDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   S
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${pork.price.small}
                 </span>
               </div>
@@ -70,7 +70,7 @@ const VegetableDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   M
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${pork.price.medium}
                 </span>
               </div>
@@ -78,7 +78,7 @@ const VegetableDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   L
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${pork.price.large}
                 </span>
               </div>

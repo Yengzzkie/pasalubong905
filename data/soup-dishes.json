@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Beef Pares",
+    "image": "/soup-dishes/BEEF PARES.png",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": "10.99"
+  },
+  {
+    "id": 2,
+    "name": "Lomi",
+    "image": "/soup-dishes/LOMI.png",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": "10.99"
+  },
+  {
+    "id": 3,
+    "name": "Shrimp Wonton Soup",
+    "image": "/soup-dishes/SHRIMP WONTON SOUP.png",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "price": "10.99"
+  }
+]

@@ -9,7 +9,7 @@ const notoSerif = Noto_Serif({
 
 const ChickenDishSection = () => {
   return (
-    <section className="mb-32 scroll-mt-32" id="seafood-dishes">
+    <section className="mb-32 scroll-mt-50" id="seafood-dishes">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-16 flex-row-reverse">
         <div className="md:col-span-5 order-2 md:order-1 text-right">
           <h2 className={`${notoSerif.className} font-bold text-(--primary) text-2xl lg:text-5xl mb-2 lg:mb-4`}>
@@ -31,7 +31,7 @@ const ChickenDishSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-3">
         {fishDishes.map((fish) => (
           <div key={fish.id} className="flex justify-between pb-6">
             <div className="flex items-center gap-4 border-b-2 border-(--primary) pb-4 max-w-[80%]">
@@ -56,7 +56,7 @@ const ChickenDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   S
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${fish.price.small}
                 </span>
               </div>
@@ -64,7 +64,7 @@ const ChickenDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   M
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${fish.price.medium}
                 </span>
               </div>
@@ -72,7 +72,7 @@ const ChickenDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   L
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${fish.price.large}
                 </span>
               </div>

@@ -9,7 +9,7 @@ const notoSerif = Noto_Serif({
 
 const PorkDishSection = () => {
   return (
-    <section className="mb-32 scroll-mt-32" id="pork-dishes">
+    <section className="mb-32 scroll-mt-50" id="pork-dishes">
       {/* <!-- Header --> */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-16">
         <div className="md:col-span-7 aspect-16/7 overflow-hidden">
@@ -33,7 +33,7 @@ const PorkDishSection = () => {
       </div>
 
       {/* PORK SELECTION */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-3">
         {porkDishes.map((pork) => (
           <div key={pork.id} className="flex justify-between pb-6">
             <div className="flex items-center gap-4 border-b-2 border-(--primary) pb-4 max-w-[80%]">
@@ -58,7 +58,7 @@ const PorkDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   S
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${pork.price.small}
                 </span>
               </div>
@@ -66,7 +66,7 @@ const PorkDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   M
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${pork.price.medium}
                 </span>
               </div>
@@ -74,7 +74,7 @@ const PorkDishSection = () => {
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   L
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${pork.price.large}
                 </span>
               </div>

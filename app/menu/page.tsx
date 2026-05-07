@@ -9,6 +9,7 @@ import PorkDishSection from "@/components/PorkDishSection/PorkDishSection";
 import FishDishSection from "@/components/FishDishSection/FishDishSection";
 import VegetableDishSection from "@/components/VegetableDishSection/VegetableDishSection";
 import Refreshers from "@/components/Refreshers/Refreshers";
+import SoupDishSection from "@/components/SoupDishSection/SoupDishSection";
 // import DessertSection from "@/components/DessertSection/DessertSection";
 // import BeverageSection from "@/components/BeverageSection/BeverageSection";
 
@@ -21,31 +22,41 @@ const MenuPage = () => {
   const menuNav = [
     {
       id: 1,
-      name: "Beef Dishes",
+      name: "Beef",
       link: "beef-dishes",
     },
     {
       id: 2,
-      name: "Chicken Dishes",
+      name: "Chicken",
       link: "chicken-dishes",
     },
     {
       id: 3,
-      name: "Pork Dishes",
+      name: "Pork",
       link: "pork-dishes",
     },
     {
       id: 4,
-      name: "Seafood Dishes",
+      name: "Seafood",
       link: "seafood-dishes",
     },
     {
       id: 5,
+      name: "Veggies",
+      link: "vegetable-dishes",
+    },
+    {
+      id: 6,
+      name: "Soup Bowls",
+      link: "soup",
+    },
+    {
+      id: 7,
       name: "Desserts",
       link: "desserts",
     },
     {
-      id: 6,
+      id: 8,
       name: "Refreshers",
       link: "refreshers",
     },
@@ -60,7 +71,9 @@ const MenuPage = () => {
           <span className="text-(--primary) text-xs lg:text-sm uppercase tracking-[0.4em] block mb-2 lg:mb-4">
             Fine Dining Selection
           </span>
-          <h1 className={`${notoSerif.className} text-3xl lg:text-7xl font-bold mb-4 lg:mb-8`}>
+          <h1
+            className={`${notoSerif.className} text-3xl lg:text-7xl font-bold mb-4 lg:mb-8`}
+          >
             Our Curated Menu
           </h1>
           <div className="bg-(--primary) w-24 h-px mx-auto mb-4 lg:mb-8"></div>
@@ -76,7 +89,7 @@ const MenuPage = () => {
           {menuNav.map((link) => (
             <a
               key={link.id}
-              className="uppercase tracking-widest lg:text-shadow-[-1px_1px_3px_#56361b73] hover:text-(--primary) transition-colors"
+              className="uppercase tracking-widest hover:underline hover:text-(--primary) transition-all"
               href={`#${link.link}`}
             >
               {link.name}
@@ -86,7 +99,7 @@ const MenuPage = () => {
 
         {/* <!-- Section: BEEF DISHES --> */}
         <BeefDishSection />
-        
+
         <InabelDivider />
         <GrainDivider />
 
@@ -110,6 +123,11 @@ const MenuPage = () => {
 
         {/* <!-- Section: VEGETABLE DISHES --> */}
         <VegetableDishSection />
+
+        <InabelDivider />
+        <GrainDivider />
+
+        <SoupDishSection />
 
         <InabelDivider />
         <GrainDivider />
@@ -191,8 +209,8 @@ const MenuPage = () => {
 
 export default MenuPage;
 
-
-          {/* <div className="grid grid-cols-1 gap-8">
+{
+  /* <div className="grid grid-cols-1 gap-8">
             <div className="bg-surface-container-low p-8 border border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="flex-1">
                 <h3 className="font-headline-md text-2xl mb-2">
@@ -251,4 +269,5 @@ export default MenuPage;
                 </span>
               </div>
             </div>
-          </div> */}
+          </div> */
+}
