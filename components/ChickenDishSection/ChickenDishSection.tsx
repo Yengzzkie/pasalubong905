@@ -51,28 +51,28 @@ const ChickenDishSection = () => {
                 <p className="text-xs italic">{chicken.description}</p>
               </div>
             </div>
-            <div className="flex gap-2 mt-2 lg:mt-8">
+            <div className="flex flex-col gap-2 items-center mt-2 lg:mt-8">
               <div className="flex flex-col items-center">
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   S
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${chicken.price.small}
                 </span>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   M
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${chicken.price.medium}
                 </span>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   L
                 </span>
-                <span className="self-start text-(--primary)">
+                <span className="text-xs lg:text-base self-start text-(--primary)">
                   ${chicken.price.large}
                 </span>
               </div>

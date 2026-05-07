@@ -51,7 +51,7 @@ const ChickenDishSection = () => {
                 <p className="text-xs italic">{fish.description}</p>
               </div>
             </div>
-            <div className="flex gap-2 mt-2 lg:mt-8">
+            <div className="flex flex-col gap-2 items-center mt-2 lg:mt-8">
               <div className="flex flex-col items-center">
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   S
@@ -60,7 +60,7 @@ const ChickenDishSection = () => {
                   ${fish.price.small}
                 </span>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   M
                 </span>
@@ -68,7 +68,7 @@ const ChickenDishSection = () => {
                   ${fish.price.medium}
                 </span>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
                   L
                 </span>
