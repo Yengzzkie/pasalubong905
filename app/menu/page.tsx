@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Noto_Serif } from "next/font/google";
 import GrainDivider from "@/components/ui/GrainDivider/GrainDivider";
 import InabelDivider from "@/components/ui/InabelDivider/InabelDivider";
@@ -8,6 +7,7 @@ import BeefDishSection from "@/components/BeefDishSection/BeefDishSection";
 import ChickenDishSection from "@/components/ChickenDishSection/ChickenDishSection";
 import PorkDishSection from "@/components/PorkDishSection/PorkDishSection";
 import FishDishSection from "@/components/FishDishSection/FishDishSection";
+import VegetableDishSection from "@/components/VegetableDishSection/VegetableDishSection";
 import Refreshers from "@/components/Refreshers/Refreshers";
 // import DessertSection from "@/components/DessertSection/DessertSection";
 // import BeverageSection from "@/components/BeverageSection/BeverageSection";
@@ -105,6 +105,13 @@ const MenuPage = () => {
         {/* <!-- Section: FISH DISHES --> */}
         <FishDishSection />
 
+        <InabelDivider />
+        <GrainDivider />
+
+        {/* <!-- Section: VEGETABLE DISHES --> */}
+        <VegetableDishSection />
+
+        <InabelDivider />
         <GrainDivider />
 
         {/* <!-- Section: DESSERTS --> */}
