@@ -1,27 +1,52 @@
 [
   {
-    "name": "Halo-Halo",
-    "image": "/refreshers/HALO HALO.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem."
+    "name": "Turon",
+    "image": "/desserts/TURON.png",
+    "description": "Crispy golden spring rolls filled with sweet saba bananas and caramelized jackfruit, coated in crunchy caramelized sugar."
   },
   {
-    "name": "Mango Graham",
-    "image": "/refreshers/MANGO GRAHAM.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem."
+    "name": "Kutsinta",
+    "image": "/desserts/KUTSINTA.png",
+    "description": "Soft and chewy steamed rice cakes with a rich brown sugar flavor, traditionally topped with freshly grated coconut."
   },
   {
-    "name": "Mango Shake",
-    "image": "/refreshers/MANGO SHAKE.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem."
+    "name": "Karioka",
+    "image": "/desserts/KARIOKA.png",
+    "description": "Sweet and chewy glutinous rice balls coated in caramelized sugar and served on skewers for a classic Filipino snack."
   },
   {
-    "name": "Sago't Gulaman",
-    "image": "/refreshers/SAGO'T GULAMAN.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem."
+    "name": "Leche Flan",
+    "image": "/desserts/LECHE PLAN.png",
+    "description": "A rich and creamy Filipino custard dessert topped with smooth golden caramel for a perfectly indulgent treat."
   },
   {
-    "name": "Taho",
-    "image": "/refreshers/TAHO.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem."
+    "name": "Ensaymada",
+    "image": "/desserts/ENSAYMADA.png",
+    "description": "Soft and fluffy Filipino sweet bread topped with butter, sugar, and grated cheese for the perfect balance of sweet and savory."
+  },
+  {
+    "name": "Ensaymada Party Tray",
+    "image": "/desserts/ENSAYMADA PARTY TRAY.png",
+    "description": "A tray of soft and buttery ensaymada topped with sugar and cheese, made for sharing with family and friends."
+  },
+  {
+    "name": "Biko",
+    "image": "/desserts/BIKO.png",
+    "description": "Sticky rice delicacy cooked in creamy coconut milk and brown sugar, finished with a sweet latik topping."
+  },
+  {
+    "name": "Biko Platter",
+    "image": "/desserts/BIKO PLATTER.png",
+    "description": "A party-sized platter of rich and sticky coconut rice cakes topped with sweet latik, perfect for sharing at gatherings."
+  },
+  {
+    "name": "Cassava Cake Platter",
+    "image": "/desserts/CASSAVA CAKE PLATTER.png",
+    "description": "Creamy and moist cassava cake baked with coconut milk and topped with a sweet custard layer for a delightful Filipino favorite."
+  },
+  {
+    "name": "Kakanin Platter",
+    "image": "/desserts/KAKANIN PLATTER.png",
+    "description": "An assorted platter of beloved Filipino rice delicacies and native sweets, perfect for celebrations and merienda."
   }
 ]

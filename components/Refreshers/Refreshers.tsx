@@ -50,7 +50,7 @@ const Refreshers = () => {
                     <Image
                       src={refresher.image}
                       alt="Tahanan House Blend"
-                      className="w-30 h-auto"
+                      className="w-30 h-auto drop-shadow-[0px_5px_3px_rgba(0,0,0,0.4)]"
                       width={100}
                       height={100}
                     />
