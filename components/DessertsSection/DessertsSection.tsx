@@ -18,7 +18,7 @@ const DessertsSection = () => {
             <div className="group">
               <div className="aspect-square overflow-hidden mb-6">
                 <Image
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 drop-shadow-[5px_5px_6px_rgba(0,0,0,0.25)]"
                   alt="turon"
                   src="/desserts/TURON.png"
                   width={1000}

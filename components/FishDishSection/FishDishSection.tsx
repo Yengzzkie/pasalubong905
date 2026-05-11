@@ -37,7 +37,7 @@ const ChickenDishSection = () => {
             <div className="flex items-center gap-4 border-b-2 border-(--primary) pb-4 max-w-[80%]">
               <div className="w-20 lg:w-36 h-20 lg:h-36 shrink-0 overflow-hidden">
                 <Image
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover drop-shadow-[2px_2px_5px_rgba(0,0,0,0.5)]"
                   src={fish.image}
                   width={1000}
                   height={1000}

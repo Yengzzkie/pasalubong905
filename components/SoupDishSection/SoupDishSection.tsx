@@ -17,7 +17,7 @@ const SoupDishSection = () => {
         <div key={soup.id} className="grid grid-cols-1 gap-8">
           <div className="p-8 border border-(--primary) flex flex-col md:flex-row justify-between items-center gap-6 mb-6 shadow-lg">
             <Image
-              className="aspect-square w-36 h-36 object-cover"
+              className="aspect-square w-36 h-36 object-cover drop-shadow-[3px_3px_5px_rgba(0,0,0,0.5)]"
               src={soup.image}
               width={1000}
               height={1000}
