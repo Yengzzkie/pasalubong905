@@ -1,16 +1,23 @@
 import Image from "next/image";
 import sides from "@/data/sides.json";
 
+type sidesProps = {
+  name: string;
+  image: string;
+  description: string;
+  price: string;
+}
+
 const SidesSection = () => {
   return (
     <section className="mb-16 lg:mb-32 scroll-mt-50" id="sides">
-      <div className="text-center mb-16">
+      <div className="text-center mb-8 lg:mb-16">
         <h2 className="noto-serif font-bold text-(--primary) text-3xl lg:text-5xl mb-4">
           Sides
         </h2>
-        <p className="font-body-md text-on-surface-variant max-w-xl mx-auto">
-          Sweet endings crafted from local chocolates, tropical fruits, and
-          traditional heirloom rice.
+        <p className="text-(--tertiary) max-w-xl mx-auto">
+          A variety of traditional Filipino sides featuring crispy, grilled, and
+          savory street food classics made for pairing or sharing.
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-8">
@@ -25,10 +32,13 @@ const SidesSection = () => {
                 height={1000}
               />
             </div>
-            <h3 className="text-(--primary) text-lg lg:text-xl mb-1">{side.name}</h3>
+            <h3 className="text-(--primary) text-lg lg:text-xl mb-1">
+              {side.name}
+            </h3>
             <p className="text-(--tertiary) text-xs lg:text-sm text-on-surface-variant lg:mb-3">
               {side.description}
             </p>
+            <span className="text-base font-bold text-(--primary)">${side.price}</span>
           </div>
         ))}
       </div>

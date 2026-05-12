@@ -12,6 +12,7 @@ import Refreshers from "@/components/Refreshers/Refreshers";
 import SoupDishSection from "@/components/SoupDishSection/SoupDishSection";
 import DessertsSection from "@/components/DessertsSection/DessertsSection";
 import SidesSection from "@/components/SidesSection/SidesSection";
+import PancitComboSection from "@/components/PancitComboSection/PancitComboSection";
 
 const notoSerif = Noto_Serif({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -132,8 +133,14 @@ const MenuPage = () => {
         <InabelDivider />
         <GrainDivider />
 
-          
+        {/* <!-- Section: SOUP BOWLS --> */}
         <SoupDishSection />
+
+        <InabelDivider />
+        <GrainDivider />
+
+        {/* <!-- Section: PANCIT COMBO --> */}
+        <PancitComboSection />
 
         <InabelDivider />
         <GrainDivider />

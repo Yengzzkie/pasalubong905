@@ -42,8 +42,8 @@ const VegetableDishSection = () => {
             Vegetable Dishes
           </h2>
           <p className="text-xs lg:text-base">
-            Small bites and starters designed to awaken the palate, inspired by
-            roadside snacks and coastal harvests.
+            Fresh and flavorful Filipino vegetable dishes cooked with
+            traditional seasonings, garlic, and savory sauces.
           </p>
         </div>
       </div>
@@ -68,7 +68,9 @@ const VegetableDishSection = () => {
                 >
                   {vegetable.name}
                 </h3>
-                <p className="text-xs text-(--tertiary) italic">{vegetable.description}</p>
+                <p className="text-xs text-(--tertiary) italic">
+                  {vegetable.description}
+                </p>
               </div>
             </div>
             {vegetable.UOM === "each"

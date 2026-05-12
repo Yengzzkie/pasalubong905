@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Pancit with BBQ Skewer",
+    "image": "/pancitcombo/PANCIT WITH BBQ SKEWER.png",
+    "description": "A flavorful pancit noodle dish paired with smoky Filipino-style BBQ skewers, combining savory noodles with grilled sweetness in every bite.",
+    "price": "13.99"
+  },
+  {
+    "id": 2,
+    "name": "Pancit with Lumpiang Shanghai",
+    "image": "/pancitcombo/PANCIT WITH LUMPIANG SHANGHAI.png",
+    "description": "Classic pancit noodles served with crispy golden Lumpiang Shanghai, creating a perfect mix of soft noodles and crunchy spring rolls.",
+    "price": "13.99"
+  },
+  {
+    "id": 3,
+    "name": "Pancit with Siomai",
+    "image": "/pancitcombo/PANCIT WITH SIOMAI.png",
+    "description": "Savory pancit noodles paired with juicy steamed siomai dumplings, offering a satisfying combination of textures and Filipino flavors.",
+    "price": "14.99"
+  }
+]
