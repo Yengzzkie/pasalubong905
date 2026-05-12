@@ -64,11 +64,11 @@ const VegetableDishSection = () => {
               </div>
               <div>
                 <h3
-                  className={`${notoSerif.className} font-semibold text-xl mb-2`}
+                  className={`${notoSerif.className} text-(--primary) font-semibold text-xl mb-2`}
                 >
                   {vegetable.name}
                 </h3>
-                <p className="text-xs italic">{vegetable.description}</p>
+                <p className="text-xs text-(--tertiary) italic">{vegetable.description}</p>
               </div>
             </div>
             {vegetable.UOM === "each"
@@ -85,7 +85,7 @@ const perPiecePrice = (vegetable: vegetableDishProps) => {
   return (
     <div className="flex flex-col justify-center items-center">
       <span className="flex items-center justify-center bg-(--primary) text-(--primary-light) text-[8px] lg:text-sm text-center rounded-lg mb-1 px-1 lg:px-2 py-0.5 lg:py-1">
-        Single Serve
+        Per Serving
       </span>
       <span className="text-xs lg:text-base text-(--primary)">
         ${vegetable.perPiecePrice} / pc

@@ -49,10 +49,10 @@ const BeefDishSection = () => {
                 />
               </div>
               <div>
-                <h3 className={`${notoSerif.className} font-semibold text-xl mb-2`}>
+                <h3 className={`${notoSerif.className} text-(--primary) font-semibold text-xl mb-2`}>
                   {beef.name}
                 </h3>
-                <p className="text-xs italic">{beef.description}</p>
+                <p className="text-xs text-(--tertiary) italic">{beef.description}</p>
               </div>
             </div>
             <div className="flex flex-col gap-2 items-center mt-2 lg:mt-8">

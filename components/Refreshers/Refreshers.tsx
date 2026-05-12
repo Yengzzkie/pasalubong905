@@ -55,14 +55,14 @@ const Refreshers = () => {
                       height={100}
                     />
                     <div>
-                      <span className="noto-serif text-lg block">
+                      <span className="noto-serif text-lg text-(--primary) block">
                         {refresher.name}
                       </span>
                       <span className="text-xs text-(--tertiary)">
                         {refresher.description}
                       </span>
                     </div>
-                    <span className="self-start">${refresher.price}</span>
+                    <span className="self-start text-(--tertiary)">${refresher.price}</span>
                   </li>
                 ))}
               </ul>

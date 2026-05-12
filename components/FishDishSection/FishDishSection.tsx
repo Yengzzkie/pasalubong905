@@ -53,10 +53,10 @@ const ChickenDishSection = () => {
                 />
               </div>
               <div>
-                <h3 className="noto-serif font-semibold text-xl mb-2">
+                <h3 className="noto-serif text-(--primary) font-semibold text-xl mb-2">
                   {fish.name}
                 </h3>
-                <p className="text-xs italic">{fish.description}</p>
+                <p className="text-xs text-(--tertiary) italic">{fish.description}</p>
               </div>
             </div>
             {fish.isSingleServe
@@ -73,7 +73,7 @@ const singleServePrice = (fish: fishDishProps) => {
   return (
     <div className="flex flex-col justify-center items-center">
       <span className="flex items-center justify-center bg-(--primary) text-(--primary-light) text-[8px] lg:text-sm text-center rounded-lg mb-1 px-1 lg:px-2 py-0.5 lg:py-1">
-        Single Serve
+        Per Serving
       </span>
       <span className="text-xs lg:text-base text-(--primary)">
         ${fish.singleServePrice}

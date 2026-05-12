@@ -8,7 +8,10 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
   },
   {
     "id": 2,
@@ -19,7 +22,10 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
   },
   {
     "id": 3,
@@ -30,7 +36,10 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
   },
   {
     "id": 4,
@@ -41,7 +50,10 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
   },
   {
     "id": 5,
@@ -52,7 +64,10 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
   },
   {
     "id": 6,
@@ -63,7 +78,10 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
   },
   {
     "id": 7,
@@ -74,6 +92,51 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
+  },
+  {
+    "id": 8,
+    "name": "Lechon Belly",
+    "image": "/pork-dishes/LECHON BELLY.png",
+    "description": "Crispy rolled pork belly roasted to perfection with juicy, flavorful meat and crunchy golden skin, served Filipino-style for every special occasion.",
+    "price": {
+      "small": "12.99",
+      "medium": "14.99",
+      "large": "16.99"
+    },
+    "isSingleServe": true,
+    "singleServePrice": "21.75",
+    "UOM": "lbs"
+  },
+  {
+    "id": 9,
+    "name": "Lechon Ulo",
+    "image": "/pork-dishes/LECHON ULO.png",
+    "description": "Traditional Filipino roasted pig head with tender, flavorful meat and irresistibly crispy skin, perfect for sharing and celebrations.",
+    "price": {
+      "small": "12.99",
+      "medium": "14.99",
+      "large": "16.99"
+    },
+    "isSingleServe": true,
+    "singleServePrice": "45",
+    "UOM": "each"
+  },
+  {
+    "id": 10,
+    "name": "Whole Lechon",
+    "image": "/pork-dishes/WHOLE LECHON.png",
+    "description": "A classic Filipino centerpiece featuring a whole roasted pig with perfectly crispy skin and juicy, savory meat prepared for festive gatherings and celebrations.",
+    "price": {
+      "small": "12.99",
+      "medium": "14.99",
+      "large": "16.99"
+    },
+    "isSingleServe": true,
+    "singleServePrice": "375",
+    "UOM": "65-70 lbs"
   }
 ]

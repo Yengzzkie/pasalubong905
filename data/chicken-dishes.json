@@ -8,7 +8,10 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
   },
   {
     "id": 2,
@@ -19,7 +22,10 @@
       "small": "12.99",
       "medium": "14.99",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": false,
+    "singleServePrice": "",
+    "UOM": null
   },
   {
     "id": 3,
@@ -27,10 +33,13 @@
     "image": "/chicken-dishes/FRIED CHICKEN LEGS.png",
     "description": "seasoned with paprika, onion powder, garlic powder, and black pepper with a dash of chili powder for added flavor.",
     "price": {
-      "small": "12.99",
-      "medium": "14.99",
+      "small": "",
+      "medium": "",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": true,
+    "singleServePrice": "7.50",
+    "UOM": "2 pcs"
   },
   {
     "id": 4,
@@ -38,10 +47,13 @@
     "image": "/chicken-dishes/FRIED CHICKEN WINGS.png",
     "description": "coated in a seasoned batter or flour mixture and deep-fried until golden, crispy, and crunchy.",
     "price": {
-      "small": "12.99",
-      "medium": "14.99",
+      "small": "",
+      "medium": "",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": true,
+    "singleServePrice": "4.95",
+    "UOM": "6 pcs"
   },
   {
     "id": 5,
@@ -49,9 +61,12 @@
     "image": "/chicken-dishes/FRIED CHICKEN WHOLE.png",
     "description": "recipe is made by dipping it into a spiced batter and deep-frying it to golden perfection.",
     "price": {
-      "small": "12.99",
-      "medium": "14.99",
+      "small": "",
+      "medium": "",
       "large": "16.99"
-    }
+    },
+    "isSingleServe": true,
+    "singleServePrice": "16.50",
+    "UOM": "each"
   }
 ]
