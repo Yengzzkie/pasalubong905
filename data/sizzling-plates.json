@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Sizzling Bangus Sisig",
+    "image": "/sizzlingplates/SIZZLING BANGUS SISIG.png",
+    "description": "Sizzling chopped milkfish mixed with onions, peppers, and savory seasonings, served hot on a sizzling plate for a flavorful Filipino favorite.",
+    "price": "20.99"
+  },
+  {
+    "id": 2,
+    "name": "Sizzling Crispy Sisig",
+    "image": "/sizzlingplates/SIZZLING CRISPY SISIG.png",
+    "description": "Crispy pork sisig served on a hot sizzling plate with onions, peppers, and bold savory flavors for a satisfying Filipino classic.",
+    "price": "19.99"
+  }
+]

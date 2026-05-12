@@ -69,12 +69,12 @@
     "name": "Chicken Palabok",
     "image": "/sides/CHICKEN PALABOK.png",
     "description": "Steamed dumplings filled with a savory blend of shrimp and pork, served with soy sauce and calamansi.",
-    "price": "14.99"
+    "price": "15.50"
   },
   {
     "name": "Chicken Spaghetti",
     "image": "/sides/CHICKEN SPAG.png",
     "description": "Steamed dumplings filled with a savory blend of shrimp and pork, served with soy sauce and calamansi.",
-    "price": "14.99"
+    "price": "14.50"
   }
 ]
