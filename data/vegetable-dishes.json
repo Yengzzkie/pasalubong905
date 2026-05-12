@@ -5,10 +5,12 @@
     "image": "/vegetable-dishes/ADOBONG SITAW.png",
     "description": "is the national dish of the Philippines, featuring chicken braised in a savory, tangy sauce made from soy sauce, vinegar, garlic, bay leaves, and black peppercorns.",
     "price": {
-      "small": "9",
-      "medium": "12",
-      "large": "15"
-    }
+      "small": "11.99",
+      "medium": "13.99",
+      "large": "15.99"
+    },
+    "UOM": null,
+    "perPiecePrice": null
   },
   {
     "id": 2,
@@ -16,10 +18,12 @@
     "image": "/vegetable-dishes/CHOPSUEY.png",
     "description": "is another popular Filipino dish.  Pieces of chicken are cooked in tomato sauce along with carrots, potatoes and bell peppers.",
     "price": {
-      "small": "9",
-      "medium": "12",
-      "large": "15"
-    }
+      "small": "11.99",
+      "medium": "13.99",
+      "large": "15.99"
+    },
+    "UOM": null,
+    "perPiecePrice": null
   },
   {
     "id": 3,
@@ -27,10 +31,12 @@
     "image": "/vegetable-dishes/GINATAANG KALABASA SITAW.png",
     "description": "seasoned with paprika, onion powder, garlic powder, and black pepper with a dash of chili powder for added flavor.",
     "price": {
-      "small": "9",
-      "medium": "12",
-      "large": "15"
-    }
+      "small": "11.99",
+      "medium": "13.99",
+      "large": "15.99"
+    },
+    "UOM": null,
+    "perPiecePrice": null
   },
   {
     "id": 4,
@@ -38,10 +44,12 @@
     "image": "/vegetable-dishes/PINAKBET.png",
     "description": "coated in a seasoned batter or flour mixture and deep-fried until golden, crispy, and crunchy.",
     "price": {
-      "small": "9",
-      "medium": "12",
-      "large": "15"
-    }
+      "small": "11.99",
+      "medium": "13.99",
+      "large": "15.99"
+    },
+    "UOM": null,
+    "perPiecePrice": null
   },
   {
     "id": 5,
@@ -49,9 +57,11 @@
     "image": "/vegetable-dishes/TORTANG TALONG.png",
     "description": "recipe is made by dipping it into a spiced batter and deep-frying it to golden perfection.",
     "price": {
-      "small": "9",
-      "medium": "12",
-      "large": "15"
-    }
+      "small": "11.99",
+      "medium": "13.99",
+      "large": "15.99"
+    },
+    "UOM": "each",
+    "perPiecePrice": "5.99"
   }
 ]

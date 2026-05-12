@@ -7,6 +7,20 @@ const notoSerif = Noto_Serif({
   subsets: ["latin"],
 });
 
+type vegetableDishProps = {
+  id: number;
+  name: string;
+  image: string;
+  description: string;
+  price: {
+    small: string;
+    medium: string;
+    large: string;
+  };
+  UOM: string | null;
+  perPiecePrice: string | null;
+};
+
 const VegetableDishSection = () => {
   return (
     <section id="vegetable-dishes" className="mb-32 scroll-mt-50">
@@ -36,57 +50,78 @@ const VegetableDishSection = () => {
 
       {/* PORK SELECTION */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-3">
-        {vegetableDishes.map((pork) => (
-          <div key={pork.id} className="flex justify-between pb-6">
+        {vegetableDishes.map((vegetable) => (
+          <div key={vegetable.id} className="flex justify-between pb-6">
             <div className="flex items-center gap-4 border-b-2 border-(--primary) pb-4 max-w-[80%]">
               <div className="w-20 lg:w-36 h-20 lg:h-36 shrink-0 overflow-hidden">
                 <Image
                   className="w-full h-full object-cover drop-shadow-[2px_2px_5px_rgba(0,0,0,0.5)]"
-                  src={pork.image}
+                  src={vegetable.image}
                   width={1000}
                   height={1000}
-                  alt={pork.name}
+                  alt={vegetable.name}
                 />
               </div>
               <div>
                 <h3
                   className={`${notoSerif.className} font-semibold text-xl mb-2`}
                 >
-                  {pork.name}
+                  {vegetable.name}
                 </h3>
-                <p className="text-xs italic">{pork.description}</p>
+                <p className="text-xs italic">{vegetable.description}</p>
               </div>
             </div>
-            <div className="flex flex-col gap-2 items-center mt-2 lg:mt-8">
-              <div className="flex flex-col items-center">
-                <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
-                  S
-                </span>
-                <span className="text-xs lg:text-base self-start text-(--primary)">
-                  ${pork.price.small}
-                </span>
-              </div>
-              <div className="flex flex-col items-center">
-                <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
-                  M
-                </span>
-                <span className="text-xs lg:text-base self-start text-(--primary)">
-                  ${pork.price.medium}
-                </span>
-              </div>
-              <div className="flex flex-col items-center">
-                <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
-                  L
-                </span>
-                <span className="text-xs lg:text-base self-start text-(--primary)">
-                  ${pork.price.large}
-                </span>
-              </div>
-            </div>
+            {vegetable.UOM === "each"
+              ? perPiecePrice(vegetable)
+              : multiSizeServingPrice(vegetable)}
           </div>
         ))}
       </div>
     </section>
+  );
+};
+
+const perPiecePrice = (vegetable: vegetableDishProps) => {
+  return (
+    <div className="flex flex-col justify-center items-center">
+      <span className="flex items-center justify-center bg-(--primary) text-(--primary-light) text-[8px] lg:text-sm text-center rounded-lg mb-1 px-1 lg:px-2 py-0.5 lg:py-1">
+        Single Serve
+      </span>
+      <span className="text-xs lg:text-base text-(--primary)">
+        ${vegetable.perPiecePrice} / pc
+      </span>
+    </div>
+  );
+};
+
+const multiSizeServingPrice = (vegetable: vegetableDishProps) => {
+  return (
+    <div className="flex flex-col gap-2 items-center mt-2 lg:mt-8">
+      <div className="flex flex-col items-center">
+        <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
+          S
+        </span>
+        <span className="text-xs lg:text-base self-start text-(--primary)">
+          ${vegetable.price.small}
+        </span>
+      </div>
+      <div className="flex flex-col items-center">
+        <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
+          M
+        </span>
+        <span className="text-xs lg:text-base self-start text-(--primary)">
+          ${vegetable.price.medium}
+        </span>
+      </div>
+      <div className="flex flex-col items-center">
+        <span className="w-6 aspect-square flex items-center justify-center bg-(--primary) text-(--primary-light)">
+          L
+        </span>
+        <span className="text-xs lg:text-base self-start text-(--primary)">
+          ${vegetable.price.large}
+        </span>
+      </div>
+    </div>
   );
 };
 
