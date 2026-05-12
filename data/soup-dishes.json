@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Beef Pares",
     "image": "/soup-dishes/BEEF PARES.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "Tender braised beef simmered in a rich, savory-sweet sauce and served with flavorful broth and steamed rice for a comforting Filipino favorite.",
     "price": "18.50"
   },
   {
     "id": 2,
     "name": "Lomi",
     "image": "/soup-dishes/LOMI.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "A hearty Filipino noodle soup made with thick egg noodles, savory broth, vegetables, and your choice of delicious toppings.",
     "price": "18.50"
   },
   {
     "id": 3,
     "name": "Shrimp Wonton Soup",
     "image": "/soup-dishes/SHRIMP WONTON SOUP.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "Delicate shrimp-filled wontons served in a warm, flavorful broth with fresh vegetables for a light yet satisfying meal.",
     "price": "15.00"
   }
 ]

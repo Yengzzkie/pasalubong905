@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Balut",
+    "image": "/sides/BALUT.png",
+    "description": "A beloved Filipino street food delicacy featuring a boiled fertilized duck egg served warm with salt or vinegar."
+  },
+  {
+    "name": "BBQ Skewer",
+    "image": "/sides/BBQ SKEWER.png",
+    "description": "Filipino-style marinated pork skewers grilled over an open flame for a smoky, sweet, and savory flavor."
+  },
+  {
+    "name": "Chicken Inasal",
+    "image": "/sides/CHICKEN INASAL.png",
+    "description": "Grilled Filipino chicken marinated in a flavorful blend of spices, calamansi, and annatto oil for a smoky and juicy finish."
+  },
+  {
+    "name": "Crispy Pata",
+    "image": "/sides/CRISPY PATA.png",
+    "description": "Deep-fried pork leg with perfectly crispy skin and tender meat, served with a savory dipping sauce."
+  },
+  {
+    "name": "Embutido",
+    "image": "/sides/EMBUTIDO.png",
+    "description": "Classic Filipino-style meatloaf made with seasoned ground pork, vegetables, raisins, and eggs, steamed to perfection."
+  },
+  {
+    "name": "Ilocos Empanada",
+    "image": "/sides/ILOCOS EMPANADA.png",
+    "description": "A crispy Filipino empanada filled with savory vegetables, egg, and meat, inspired by the famous flavors of Ilocos."
+  },
+  {
+    "name": "Lechon Kawali",
+    "image": "/sides/LECHON KAWALI.png",
+    "description": "Crispy deep-fried pork belly with juicy, flavorful meat and crunchy skin, served with traditional dipping sauce."
+  },
+  {
+    "name": "Lumpiang Gulay (Small)",
+    "image": "/sides/LUMPIANG GULAY SMALL.png",
+    "description": "Crispy Filipino vegetable spring rolls filled with fresh mixed vegetables and served with a savory dipping sauce."
+  },
+  {
+    "name": "Lumpiang Gulay (Big)",
+    "image": "/sides/LUMPIANG GULAY BIG.png",
+    "description": "Large Filipino-style vegetable spring rolls packed with fresh vegetables and fried until perfectly golden and crispy."
+  },
+  {
+    "name": "Shanghai",
+    "image": "/sides/SHANGHAI.png",
+    "description": "Crunchy Filipino lumpia rolls filled with seasoned ground pork and vegetables, perfect for sharing and celebrations."
+  },
+  {
+    "name": "Shrimp & Pork Siomai",
+    "image": "/sides/SHRIMP PORK SIOMAI.png",
+    "description": "Steamed dumplings filled with a savory blend of shrimp and pork, served with soy sauce and calamansi."
+  }
+]
