@@ -6,6 +6,7 @@ import type { CustomArrowProps } from "react-slick";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 
 type featuredItemProps = {
   name: string;
@@ -100,12 +101,14 @@ export default function Carousel({ items }: itemProps) {
       <Slider ref={sliderRef} {...settings}>
         {items.map((item, index) => (
           <div key={index} className="px-1 lg:px-3 h-full">
-            <div className="flex flex-col h-full group">
+            <div className="relative flex flex-col h-full group overflow-hidden">
               <div className="aspect-square overflow-hidden mb-2 lg:mb-6">
-                <img
+                <Image
                   src={item.image}
                   alt={item.name}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  width={1000}
+                  height={1000}
                 />
               </div>
 
@@ -114,11 +117,11 @@ export default function Carousel({ items }: itemProps) {
               </h3>
 
               {/* 👇 this makes heights consistent */}
-              <p className="mb-2 lg:mb-4 text-xs lg:text-sm text-gray-500 flex-grow">
+              <p className="mb-2 lg:mb-4 text-xs lg:text-sm text-gray-500 grow">
                 {item.description}
               </p>
 
-              <span className="bg-(--primary) text-(--neutral) text-xs lg:text-sm w-fit px-1 py-0.5">${item.price}</span>
+              <span className="lg:absolute top-12 -right-17 bg-(--accent) lg:bg-red-500 text-(--neutral) text-center text-xs lg:text-2xl px-2 lg:px-22 py-2 lg:rotate-45 shadow-[0px_5px_5px_#8e3a1f]">${item.price}</span>
             </div>
           </div>
         ))}

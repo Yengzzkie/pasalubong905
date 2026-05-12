@@ -2,36 +2,29 @@
   {
     "name": "Boodle Fight",
     "category": "Boodle Fight",
-    "image": "/618808436_910181301948328_108844109515198654_n.jpg",
-    "description": "48-hour slow-cooked duck leg with cane vinegar and soy.",
-    "price": "28"
+    "image": "/featured/boodle-fight.jpg",
+    "description": "A festive Filipino feast served kamayan-style with grilled meats, seafood, rice, and traditional sides perfect for sharing.",
+    "price": "26.99/person"
   },
   {
     "name": "Kakakanin Platter",
     "category": "Main",
-    "image": "/kakanin-platter.png",
-    "description": "Peanut-infused risotto with beef short rib.",
-    "price": "32"
-  },
-  {
-    "name": "Halo-Halo",
-    "category": "Dessert",
-    "image": "/halo-halo.png",
-    "description": "Refined Filipino dessert with ube and leche flan.",
-    "price": "16"
+    "image": "/featured/kakanin-platter.png",
+    "description": "An assorted platter of traditional Filipino kakanin and native delicacies made with rice, coconut, and sweet local flavors.",
+    "price": "50.00"
   },
   {
     "name": "Sizzling Bangus Sisig",
     "category": "Sizzling",
-    "image": "/SIZZLING BANGUS SISIG.png",
-    "description": "Crispy croquettes with sisig and calamansi aioli.",
-    "price": "18"
+    "image": "/featured/SIZZLING BANGUS SISIG.png",
+    "description": "Savory chopped milkfish served sizzling hot with onions, peppers, and bold Filipino seasonings.",
+    "price": "20.99"
   },
   {
     "name": "Sizzling Crispy Sisig",
     "category": "Sizzling",
-    "image": "/SIZZLING CRISPY SISIG.png",
-    "description": "Charcoal-grilled chicken with annatto marinade.",
-    "price": "24"
+    "image": "/featured/SIZZLING CRISPY SISIG.png",
+    "description": "Crispy pork sisig served on a sizzling plate with rich savory flavors and a satisfying crunch in every bite.",
+    "price": "19.99"
   }
 ]
