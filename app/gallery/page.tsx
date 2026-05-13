@@ -1,6 +1,6 @@
 "use client";
 
-import { Gallery } from "@/components/Gallery/Gallery";
+import Gallery from "@/components/Gallery/Gallery";
 
 const page = () => {
   return (
