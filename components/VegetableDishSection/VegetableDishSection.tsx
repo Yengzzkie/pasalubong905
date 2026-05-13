@@ -23,9 +23,9 @@ type vegetableDishProps = {
 
 const VegetableDishSection = () => {
   return (
-    <section id="vegetable-dishes" className="mb-32 scroll-mt-50">
+    <section id="vegetable-dishes" className="mb-16 lg:mb-32 scroll-mt-50">
       {/* <!-- Header --> */}
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-12 items-center mb-16">
         <div className="md:col-span-7 aspect-16/7 overflow-hidden">
           <Image
             className="w-full h-full object-cover"

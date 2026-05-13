@@ -21,7 +21,7 @@ const SidesSection = () => {
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-8">
-        {sides.map((side, index) => (
+        {sides.map((side: sidesProps, index) => (
           <div key={index} className="group">
             <div className="aspect-square overflow-hidden lg:mb-6">
               <Image

@@ -14,8 +14,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "Menu", href: "/menu" },
     { name: "Party Trays", href: "/party-trays" },
-    { name: "Services", href: "/services" },
-    { name: "Gallery", href: "/gallery" },
+    { name: "Gallery", href: "/" },
   ];
 
   return (
@@ -55,7 +54,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <button className="hidden md:block uppercase border border-(--primary) px-8 py-3 hover:bg-(--primary) hover:text-(--neutral) transition-all">
-          Order Now
+          <a href="tel:+19057200800">Call to Order Now</a>
         </button>
 
         {/* Mobile menu button */}

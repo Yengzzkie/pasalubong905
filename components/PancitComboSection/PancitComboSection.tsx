@@ -3,7 +3,7 @@ import pancitCombo from "@/data/pancitcombo.json";
 
 const PancitComboSection = () => {
   return (
-    <section id="soup" className="mb-16 lg:mb-32 scroll-mt-50">
+    <section id="pancit-combo" className="mb-16 lg:mb-32 scroll-mt-50">
       <div className="text-center mb-16">
         <h2 className="noto-serif font-bold text-(--primary) text-3xl lg:text-5xl mb-4">
           Pancit Combo

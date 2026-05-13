@@ -1,4 +1,5 @@
 import { Noto_Serif } from "next/font/google";
+import Image from "next/image";
 
 const notoSerif = Noto_Serif({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -35,31 +36,32 @@ const About = () => {
               creating a tactile bridge between the past and the present.
             </p>
           </div>
-          <div className="lg:pt-8">
+          {/* <div className="lg:pt-8">
             <a
               className="font-label-sm text-label-sm text-primary border-b-2 border-primary/30 pb-1 hover:border-primary transition-all"
               href="#"
             >
               READ OUR STORY
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="md:col-span-7 relative">
           <div className="aspect-4/5 md:aspect-16/10 overflow-hidden relative">
-            <img
-              alt="Tahanan Interior"
-              className="w-full h-full object-cover grayscale-[20%] group-hover:scale-105 transition-transform duration-1000"
-              data-alt="A wide interior view of an upscale Filipino heritage restaurant featuring heavy Narra wood ceiling beams and hand-woven Banig wall accents. Large windows look out onto a lush tropical garden at dusk, while the interior is bathed in warm, focused pin-lights on pristine linen-covered tables. The aesthetic is tactile minimalism, emphasizing natural textures and architectural shadows."
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBET40qm2J6D3xjNIhE_HU1qRYh2LBJID-A14yVCPkoCh34rMrWMD3UfKmP07fS8u1U7fwpAMrXLTrVnnAT899mOAwQm_rK5iDEu6eJFt1qongXlGFNxei2Hs2AT8X0IvcetV53OJKUzdb02gEiuKHzf95ByEUsM3yg9T2Z9WM8oIfuFe1jnVPVd-uyU5lB-19J_WorxPCWM0pW9pgrYd5iiT0Vde_Fo4odv26gVG2n9gkvv4p3cmMfcvgV-IL9KXkjBJ_iDcuDOVo"
+            <Image
+              alt="Dining Area"
+              className="w-full h-full object-cover grayscale-20 group-hover:scale-105 transition-transform duration-1000"
+              width={1000}
+              height={1000}
+              src="/dining-area.jpg"
             />
             <div className="absolute inset-0 border-24p border-white/10 pointer-events-none"></div>
           </div>
-          <div className="absolute -bottom-8 -left-8 bg-(--tertiary) text(--neutral) p-12 hidden md:block">
-            <p className="font-display-lg text-3xl text-white italic">
-              &quot;Pagkain at Pamilya&quot;
+          <div className="absolute -bottom-8 -right-8 bg-(--tertiary) text(--neutral) p-8 hidden md:block">
+            <p className="font-display-lg text-xl text-white italic">
+              &quot;Where Every Meal Feels Like Home&quot;
             </p>
             <p className="text-xs text-(--primary-light) uppercase tracking-[0.2em] mt-2">
-              Food and Family
+              Filipino Dining Experience
             </p>
           </div>
         </div>

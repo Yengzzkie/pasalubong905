@@ -14,6 +14,7 @@ import DessertsSection from "@/components/DessertsSection/DessertsSection";
 import SidesSection from "@/components/SidesSection/SidesSection";
 import PancitComboSection from "@/components/PancitComboSection/PancitComboSection";
 import SizzlingSection from "@/components/SizzlingSection/SizzlingSection";
+import SilogSection from "@/components/SilogSection/SilogSection";
 
 const notoSerif = Noto_Serif({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -49,21 +50,36 @@ const MenuPage = () => {
     },
     {
       id: 6,
+      name: "Silog Meals",
+      link: "silog",
+    },
+    {
+      id: 7,
       name: "Soup Bowls",
       link: "soup",
     },
     {
-      id: 7,
+      id: 8,
+      name: "Pancit Combo",
+      link: "pancit-combo",
+    },
+    {
+      id: 9,
+      name: "Sizzling Plates",
+      link: "sizzling-plates",
+    },
+    {
+      id: 10,
       name: "Sides",
       link: "sides",
     },
     {
-      id: 8,
+      id: 11,
       name: "Desserts",
       link: "desserts",
     },
     {
-      id: 9,
+      id: 12,
       name: "Refreshers",
       link: "refreshers",
     },
@@ -92,15 +108,16 @@ const MenuPage = () => {
         </header>
 
         {/* <!-- Menu Navigation (Anchor Links) --> */}
-        <div className="lg:sticky top-24 left-0 flex flex-wrap lg:flex-row justify-center gap-4 lg:gap-12 backdrop-blur-lg backdrop-saturate-150 bg-white/30 lg:shadow-lg mb-10 lg:mb-20 border-y border-white/10 py-6 z-10">
-          {menuNav.map((link) => (
-            <a
-              key={link.id}
-              className="uppercase tracking-widest hover:underline hover:text-(--primary) transition-all"
-              href={`#${link.link}`}
-            >
-              {link.name}
-            </a>
+        <div className="lg:sticky gap-2.5 top-24 left-0 flex flex-wrap lg:flex-row justify-center backdrop-blur-lg backdrop-saturate-150 bg-white/30 lg:shadow-lg mb-10 lg:mb-20 border-y border-white/10 py-4 lg:py-6 z-10">
+          {menuNav.map((link, index) => (
+            <div key={link.id} className="flex items-center">
+              <a className="uppercase tracking-[0.2em] text-sm text-(--tertiary) hover:text-(--primary) transition-colors duration-300 px-3 lg:px-6" href={`#${link.link}`}>
+                {link.name}
+              </a>
+              {index !== menuNav.length - 1 && (
+                <span className="hidden lg:block w-px h-4 bg-(--primary)/20" />
+              )}
+            </div>
           ))}
         </div>
 
@@ -130,6 +147,12 @@ const MenuPage = () => {
 
         {/* <!-- Section: VEGETABLE DISHES --> */}
         <VegetableDishSection />
+
+        <InabelDivider />
+        <GrainDivider />
+
+        {/* <!-- Section: SILOG --> */}
+        <SilogSection />
 
         <InabelDivider />
         <GrainDivider />

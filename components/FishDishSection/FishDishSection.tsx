@@ -17,8 +17,8 @@ type fishDishProps = {
 
 const ChickenDishSection = () => {
   return (
-    <section className="mb-32 scroll-mt-50" id="seafood-dishes">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-16 flex-row-reverse">
+    <section className="mb-16 lg:mb-32 scroll-mt-50" id="seafood-dishes">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-12 items-center mb-16 flex-row-reverse">
         <div className="md:col-span-5 order-2 md:order-1 text-right">
           <h2 className="noto-serif font-bold text-(--primary) text-2xl lg:text-5xl mb-2 lg:mb-4">
             Fish Dishes

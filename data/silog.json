@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "DaingSilog",
+    "image": "/silog/DAING SILOG.jpg",
+    "description": "Marinated and fried milkfish served with garlic fried rice and egg for a classic Filipino breakfast favorite.",
+    "price": "16.99"
+  },
+  {
+    "id": 2,
+    "name": "EmbuSilog",
+    "image": "/silog/EMBU SILOG.jpg",
+    "description": "Filipino-style embutido paired with garlic fried rice and egg for a hearty and savory silog meal.",
+    "price": "14.99"
+  },
+  {
+    "id": 3,
+    "name": "HotSilog",
+    "image": "/silog/HOTSILOG.png",
+    "description": "Filipino hotdog served with garlic fried rice and egg for a sweet and savory comfort meal.",
+    "price": "14.99"
+  },
+  {
+    "id": 4,
+    "name": "InasalSilog",
+    "image": "/silog/INASAL SILOG.png",
+    "description": "Flavorful chicken inasal paired with garlic fried rice and egg for a smoky and satisfying Filipino combo.",
+    "price": "15.99"
+  },
+  {
+    "id": 5,
+    "name": "LongSilog",
+    "image": "/silog/LONGSILOG.png",
+    "description": "Sweet Filipino longganisa served with garlic fried rice and egg for a delicious all-time breakfast favorite.",
+    "price": "15.99"
+  },
+  {
+    "id": 6,
+    "name": "Silog Platter",
+    "image": "/silog/SILOG PLATTER.jpg",
+    "description": "A generous platter of Filipino silog favorites served with garlic fried rice, eggs, and assorted savory meats perfect for sharing.",
+    "price": "20.99"
+  },
+  {
+    "id": 7,
+    "name": "TapSilog",
+    "image": "/silog/TAPSILOG.png",
+    "description": "Tender Filipino beef tapa served with garlic fried rice and egg for a rich and flavorful breakfast classic.",
+    "price": "16.99"
+  },
+  {
+    "id": 8,
+    "name": "Tocilog",
+    "image": "/silog/TOCILOG.png",
+    "description": "Sweet cured pork tocino paired with garlic fried rice and egg for a savory-sweet Filipino breakfast meal.",
+    "price": "15.99"
+  },
+  {
+    "id": 9,
+    "name": "TuyoSilog",
+    "image": "/silog/TUYOSILOG.jpg",
+    "description": "Crispy dried fish served with garlic fried rice and egg for a simple yet flavorful Filipino comfort breakfast.",
+    "price": "14.99"
+  }
+]
