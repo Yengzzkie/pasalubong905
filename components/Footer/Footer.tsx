@@ -67,7 +67,7 @@ const Footer = () => {
             Mon — Tue <br />
             10:30 AM — 7:00 PM <br />
             Wed — Fri <br />
-            10:30 AM — 7:00 PM <br />
+            10:30 AM — 8:00 PM <br />
             Sat - Sun <br />
             9:00 AM — 8:00 PM <br />
           </p>
