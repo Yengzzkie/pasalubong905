@@ -1,6 +1,16 @@
-import { useRef, useState } from "react";
+import { useRef, useState, RefObject } from "react";
 import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
+
+type CardProps = {
+  containerRef: RefObject<HTMLDivElement | null>;
+  src: string;
+  alt: string;
+  top: string;
+  left: string;
+  rotate: string;
+  className?: string;
+};
 
 export const Gallery = () => {
   return (
@@ -121,7 +131,7 @@ const Cards = () => {
   );
 };
 
-const Card = ({ containerRef, src, alt, top, left, rotate, className }) => {
+const Card = ({ containerRef, src, alt, top, left, rotate, className }: CardProps) => {
   const [zIndex, setZIndex] = useState(0);
 
   const updateZIndex = () => {
