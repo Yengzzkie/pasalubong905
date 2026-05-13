@@ -13,27 +13,26 @@ const About = () => {
         <div className="md:col-span-5 space-y-8">
           <div className="font-bold inline-block px-4 py-1 border-l-2 border-primary">
             <span className="font-label-sm text-label-sm text-primary uppercase tracking-widest">
-              Our Heritage
+              Our Story
             </span>
           </div>
           <h2
             className={`${notoSerif.className} text-4xl font-bold font-headline-lg text-headline-lg text-tertiary`}
           >
-            More than a restaurant, it is a{" "}
-            <span className="text-primary italic">Tahanan</span>.
+            Bringing people together through{" "}
+            <span className="text-primary italic">Filipino comfort food</span>.
           </h2>
           <div className="space-y-6 text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
             <p>
-              Rooted in the Tagalog word for &quot;home,&quot; TAHANAN is a
-              sanctuary where pre-colonial Filipino traditions meet the
-              precision of modern gastronomy. Our journey began with a simple
-              desire: to honor the complex flavors of our ancestors through
-              artisanal craftsmanship.
+              Inspired by the warmth of Filipino hospitality, our restaurant was
+              created to be a welcoming space where family, friends, and
+              community can gather over comforting meals and familiar flavors.
             </p>
             <p>
-              Every corner of our space is curated with hand-carved Narra wood,
-              woven Inabel textiles, and volcanic stone from the Bicol region,
-              creating a tactile bridge between the past and the present.
+              From sizzling classics and hearty soups to traditional kakanin and
+              street food favorites, every dish is prepared with care using
+              recipes and flavors that celebrate the richness of Filipino
+              culture and cuisine.
             </p>
           </div>
           {/* <div className="lg:pt-8">
