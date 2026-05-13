@@ -64,12 +64,12 @@ const Footer = () => {
           </h4>
 
           <p className="text-stone-500 font-serif text-sm uppercase tracking-widest">
-            Mon — Fri <br />
-            10:30 AM — 8:00 PM <br />
-            Saturday <br />
+            Mon — Tue <br />
+            10:30 AM — 7:00 PM <br />
+            Wed — Fri <br />
+            10:30 AM — 7:00 PM <br />
+            Sat - Sun <br />
             9:00 AM — 8:00 PM <br />
-            Sunday <br />
-            9:00 AM — 7:00 PM
           </p>
         </div>
       </div>

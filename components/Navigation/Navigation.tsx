@@ -14,7 +14,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "Menu", href: "/menu" },
     { name: "Party Trays", href: "/party-trays" },
-    { name: "Gallery", href: "/" },
+    { name: "Gallery", href: "/gallery" },
   ];
 
   return (
