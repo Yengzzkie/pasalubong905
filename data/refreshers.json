@@ -2,31 +2,31 @@
   {
     "name": "Halo-Halo",
     "image": "/refreshers/HALO HALO.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "A colorful Filipino classic made with shaved ice, sweet beans, jellies, fruits, leche flan, and creamy ube ice cream.",
     "price": "12.75"
   },
   {
     "name": "Mango Graham",
     "image": "/refreshers/MANGO GRAHAM.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "Layers of sweet ripe mangoes, crushed graham crackers, and creamy milk blended into a rich and refreshing dessert drink.",
     "price": "11.25"
   },
   {
     "name": "Mango Shake",
     "image": "/refreshers/MANGO SHAKE.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "A smooth and icy tropical drink made with fresh ripe mangoes for the perfect balance of sweetness and freshness.",
     "price": "9.25"
   },
   {
     "name": "Sago't Gulaman",
     "image": "/refreshers/SAGO'T GULAMAN.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "A refreshing brown sugar drink with chewy tapioca pearls and soft gulaman jelly, served ice cold.",
     "price": "7.75"
   },
   {
     "name": "Taho",
     "image": "/refreshers/TAHO.png",
-    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem.",
+    "description": "Silky soft tofu topped with arnibal syrup and sago pearls, a comforting Filipino favorite served warm or chilled.",
     "price": "9.49"
   }
 ]

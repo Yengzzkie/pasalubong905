@@ -39,20 +39,20 @@ const Refreshers = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-2/3 gap-10">
+          <div className="w-full lg:w-4/5 gap-10">
             <div className="mb-8">
               <h4 className="text-(--primary) border-b pb-2 mb-4">
                 SIGNATURES
               </h4>
-              <ul className="grid grid-cols-1 md:grid-cols-2 space-y-8 lg:space-y-10">
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 space-y-8 lg:space-y-10">
                 {refreshers.map((refresher, index) => (
-                  <li key={index} className="flex justify-between items-center">
+                  <li key={index} className="flex flex-col lg:flex-row justify-between items-center border-b border-b-(--primary)/30 pb-2 lg:border-none">
                     <Image
                       src={refresher.image}
                       alt="Tahanan House Blend"
-                      className="w-30 h-auto drop-shadow-[0px_5px_3px_rgba(0,0,0,0.4)]"
-                      width={100}
-                      height={100}
+                      className="w-50 h-auto drop-shadow-[0px_5px_3px_rgba(0,0,0,0.4)]"
+                      width={1000}
+                      height={1000}
                     />
                     <div>
                       <span className="noto-serif text-lg text-(--primary) block">

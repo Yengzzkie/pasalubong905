@@ -1,7 +1,7 @@
 [
   {
     "name": "Balut",
-    "image": "/sides/BALUT.png",
+    "image": "/sides/BALUT 1.png",
     "description": "A beloved Filipino street food delicacy featuring a boiled fertilized duck egg served warm with salt or vinegar.",
     "price": "3.25 / pc"
   },
@@ -61,7 +61,7 @@
   },
   {
     "name": "Shrimp & Pork Siomai",
-    "image": "/sides/SHRIMP PORK SIOMAI.png",
+    "image": "/sides/SIOMAI.png",
     "description": "Steamed dumplings filled with a savory blend of shrimp and pork, served with soy sauce and calamansi.",
     "price": "7.50"
   },
