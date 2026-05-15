@@ -23,9 +23,10 @@ const ChickenDishSection = () => {
           <h2 className="noto-serif font-bold text-(--primary) text-2xl lg:text-5xl mb-2 lg:mb-4">
             Fish Dishes
           </h2>
-          <p className="text-xs lg:text-base">
-            Hearty main courses that celebrate the diversity of regional
-            Philippine slow-cooking traditions.
+          <p className="text-xs lg:text-base text-(--tertiary)">
+            Light yet flavorful Filipino seafood dishes prepared with fresh
+            fish, local herbs, and traditional cooking styles from coastal
+            regions.
           </p>
         </div>
         <div className="md:col-span-7 aspect-16/7 overflow-hidden order-1 md:order-2">
@@ -56,7 +57,9 @@ const ChickenDishSection = () => {
                 <h3 className="noto-serif text-(--primary) font-semibold text-xl mb-2">
                   {fish.name}
                 </h3>
-                <p className="text-xs text-(--tertiary) italic">{fish.description}</p>
+                <p className="text-xs text-(--tertiary) italic">
+                  {fish.description}
+                </p>
               </div>
             </div>
             {fish.isSingleServe

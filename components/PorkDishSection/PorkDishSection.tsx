@@ -42,9 +42,9 @@ const PorkDishSection = () => {
           >
             Pork Dishes
           </h2>
-          <p className="text-xs lg:text-base">
-            Small bites and starters designed to awaken the palate, inspired by
-            roadside snacks and coastal harvests.
+          <p className="text-xs lg:text-base text-(--tertiary)">
+            Classic Filipino pork dishes packed with bold savory flavors, tender
+            cuts, and comforting recipes inspired by family-style cooking.
           </p>
         </div>
       </div>

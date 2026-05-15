@@ -41,7 +41,7 @@ const VegetableDishSection = () => {
           >
             Vegetable Dishes
           </h2>
-          <p className="text-xs lg:text-base">
+          <p className="text-xs lg:text-base text-(--tertiary)">
             Fresh and flavorful Filipino vegetable dishes cooked with
             traditional seasonings, garlic, and savory sauces.
           </p>

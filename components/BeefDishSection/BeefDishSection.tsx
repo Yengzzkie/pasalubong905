@@ -27,9 +27,9 @@ const BeefDishSection = () => {
           >
             Beef Dishes
           </h2>
-          <p className="text-xs lg:text-base">
-            Small bites and starters designed to awaken the palate, inspired by
-            roadside snacks and coastal harvests.
+          <p className="text-xs lg:text-base text-(--tertiary)">
+            Rich, savory Filipino beef specialties slow-cooked and seasoned with
+            bold traditional flavors, served hot and satisfying in every bite.
           </p>
         </div>
       </div>
@@ -49,10 +49,14 @@ const BeefDishSection = () => {
                 />
               </div>
               <div>
-                <h3 className={`${notoSerif.className} text-(--primary) font-semibold text-xl mb-2`}>
+                <h3
+                  className={`${notoSerif.className} text-(--primary) font-semibold text-xl mb-2`}
+                >
                   {beef.name}
                 </h3>
-                <p className="text-xs text-(--tertiary) italic">{beef.description}</p>
+                <p className="text-xs text-(--tertiary) italic">
+                  {beef.description}
+                </p>
               </div>
             </div>
             <div className="flex flex-col gap-2 items-center mt-2 lg:mt-8">

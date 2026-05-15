@@ -32,9 +32,9 @@ const ChickenDishSection = () => {
           >
             Chicken Dishes
           </h2>
-          <p className="text-xs lg:text-base">
-            Hearty main courses that celebrate the diversity of regional
-            Philippine slow-cooking traditions.
+          <p className="text-xs lg:text-base text-(--tertiary)">
+            Flavorful Filipino chicken favorites cooked with rich spices, savory
+            sauces, and comforting homemade traditions in every serving.
           </p>
         </div>
         <div className="md:col-span-7 aspect-16/7 overflow-hidden order-1 md:order-2">
